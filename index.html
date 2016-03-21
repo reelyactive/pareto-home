@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Pareto by reelyActive </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="js/pareto.js"></script>
+  </head>
+  <body ng-app="pareto">
+    <div class="container-fluid">
+      <div ng-controller="CarouselCtrl" class="row">
+        <uib-carousel interval="2000">
+          <uib-slide ng-repeat="slide in slides track by slide.id"
+                     index="slide.id">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+            <div class="carousel-caption">
+              <h2>{{slide.text}}</h2>
+            </div>
+          </uib-slide>
+        </uib-carousel>
+      </div>
+      <div class="row reelyblue">
+        <h1 class="text-center"> Introducting Pareto </h1>
+        <h3 class="text-center"> the Enterprise Cloud Platform from reelyActive </h3>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <p> &nbsp; </p>
+          <ul class="lead">
+            <li> detect the occupants of a space in real-time
+            <li> observe occupation and traffic patterns live via a dashboard
+            <li> relay the real-time data stream to partner services
+          </ul>
+        </div>
+        <div class="col-md-4 reelyblue">
+          <img src="images/reelyActive-platform.png" class="img-responsive">
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="text-center"> Try a live demo now! </h1>
+        <a href="http://cloud.reelyactive.com" target="_blank">
+          <button type="button" class="btn btn-success center-block">
+            Let's do it!
+          </button>
+        </a>
+        <br>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="http://pareto.reelyactive.com"> Pareto </a>
+      &nbsp; | &nbsp;
+      <a href="http://context.reelyactive.com"
+         tooltip="We believe in an open Internet of Things"
+         tooltip-placement="right">
+        &copy; reelyActive 2016
+      </a>
+    </footer>
+  </body>
+</html>
