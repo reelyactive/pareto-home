@@ -11,6 +11,15 @@
   </head>
   <body ng-app="pareto">
     <div class="container-fluid">
+      <div class="row wrapper style-grey header">
+        <div class="logo">
+          <a href="index.html"><img src="http://context.reelyactive.com/images/header-logo@2x.png" alt="reelyActive logo"></a>
+        </div>
+        <h3 class="text-center"> Introducting Pareto </h3>
+        <h4 class="text-center"> the Enterprise Cloud Platform from reelyActive </h4>
+      </div>
+      <div class="row separator reelyorange"></div>
+
       <div ng-controller="CarouselCtrl" class="row">
         <uib-carousel interval="2000">
           <uib-slide ng-repeat="slide in slides track by slide.id"
@@ -22,11 +31,7 @@
           </uib-slide>
         </uib-carousel>
       </div>
-      <div class="row reelyblue">
-        <h1 class="text-center"> Introducting Pareto </h1>
-        <h3 class="text-center"> the Enterprise Cloud Platform from reelyActive </h3>
-      </div>
-      <div class="row">
+      <div class="row wrapper style-blue">
         <div class="col-md-8">
           <p> &nbsp; </p>
           <ul class="lead">
@@ -35,13 +40,13 @@
             <li> relay the real-time data stream to partner services
           </ul>
         </div>
-        <div class="col-md-4 reelyblue">
+        <div class="col-md-4">
           <img src="images/reelyActive-platform.png" class="img-responsive">
         </div>
       </div>
       <div class="row">
-        <h2 class="text-center"> Try a live demo now! </h1>
-        <a href="http://cloud.reelyactive.com" target="_blank">
+        <h3 class="text-center try"> Try a live demo now! </h3>
+        <a href="http://cloud.reelyactive.com/#/page/register" target="_blank">
           <button type="button" class="btn btn-success center-block">
             Let's do it!
           </button>
