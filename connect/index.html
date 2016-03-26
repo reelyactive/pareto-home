@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Connect your hardware to Pareto </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="../js/pareto.js"></script>
+  </head>
+  <body ng-app="pareto">
+    <div class="container-fluid">
+      <div class="row wrapper style-grey header">
+        <div class="logo">
+          <a href="../index.html"><img src="http://context.reelyactive.com/images/header-logo@2x.png" alt="reelyActive logo"></a>
+        </div>
+        <h3 class="text-center"> Connect hardware to Pareto </h3>
+        <h4 class="text-center"> the Enterprise Cloud Platform from reelyActive </h4>
+      </div>
+      <div class="row separator reelyorange"></div>
+      <div class="row">
+        <h2 class="text-center"> Connect your sensor in three easy steps <br> <small> Your computer will relay the sensor data to the Pareto cloud platform </small> </h2>
+        <h2 class="text-center">  </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class=" wrapper style-blue"> 1. Install Node.js </h3>
+          <p> Install Node.js on the computer to which your sensors will be connected.  We recommend you install the LTS version. </p>
+          <a href="https://nodejs.org" target="_blank">
+            <button type="button" class="btn btn-success center-block">
+              Let's do it!
+            </button>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <h3 class="wrapper style-blue"> 2. Install barnowl-relay </h3>
+          <p> Once the Node.js installation completes, open a terminal or command prompt and enter: </p>
+          <pre> npm install -g barnowl-relay </pre>
+        </div>
+        <div class="col-md-4">
+          <h3 class="wrapper style-blue"> 3. Connect and run </h3>
+          <p> With the <a href="http://shop.reelyactive.com/products/starterkit-min" target="_blank">minimal starter kit</a> plugged in to the USB port of your computer, enter via the terminal:
+          <pre> barnowl-relay -s -h cloud.reelyactive.com </pre>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="text-center"> Configure your sensor in Pareto <br> <small> Pareto will display the sensor data in a semantically meaningful way </small> </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="../images/pareto-newpoi.png" class="img-responsive">
+        </div>
+        <div class="col-md-6">
+          <h3 class="wrapper style-blue"> Add the sensor as a new POI </h3>
+          <ol>
+            <li> select the Points of Interest screen from the left menu
+            <li> click <i>New</i>
+            <li> enter the identifier on the back of the sensor (lowercase, no separators)
+            <li> enter the two-part directory in the format <i>companyname:test</i> (for example: <i>acme:test</i>)
+            <li> click save
+          </ol>
+          <h3 class="wrapper style-blue"> Observe the dashboard </h3>
+          <ol>
+            <li> select the Dashboard screen from the left menu
+            <li> select your directory (ex: <i>acme</i>) from the pull-down
+            <li> observe the real-time data from the <i>test</i> sensor
+          </ol>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="http://pareto.reelyactive.com"> Pareto </a>
+      &nbsp; | &nbsp;
+      <a href="http://context.reelyactive.com"
+         tooltip="We believe in an open Internet of Things"
+         tooltip-placement="right">
+        &copy; reelyActive 2016
+      </a>
+    </footer>
+  </body>
+</html>
