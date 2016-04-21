@@ -7,12 +7,27 @@
   padding-top: 2rem;
 }
 
+.nav-white .menu {
+  & > li > a {color: $light-gray;}
+  & > li > a:hover { color: $white; }
+
+  .button {
+    border-color: $white;
+    &:hover {
+      border-color: $white;
+    }
+    &:focus {
+      background: scale-color($primary-color, $lightness: -10%);
+    }
+  }
+}
+
 .menu > li {
   text-align: center;
   font-size: 1rem;
 
-  & > a {color: $light-gray;}
-  & > a:hover { color: $white; }
+  & > a {color: $dark-gray;}
+  & > a:hover { color: $black; }
 
   .button {
     margin-left: 1rem;

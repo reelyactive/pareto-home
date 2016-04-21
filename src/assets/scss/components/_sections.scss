@@ -3,12 +3,14 @@ section.hero {
   background-size: cover;
   @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.15), inset);
 
-  & > .row {
-    height: 80%;
-    color: $white;
-  }
 
-  &.homepage { background-image: url(../../assets/img/homepage_background.jpg); }
+  &.homepage {
+    background-image: url(../../assets/img/homepage_background.jpg);
+    .row {
+      height: 80%;
+      color: $white;
+    }
+  }
 }
 
 section.feature {
@@ -30,13 +32,13 @@ section.feature {
     }
   }
 
-  @media (max-width:1024px){
+  @include breakpoint(medium down) {
     .feature-img {
       width: 60rem;
     }
   }
 
-  @media (max-width:620px){
+  @include breakpoint(small only) {
     & > .row:first-of-type {
       padding-top: 1rem;
       padding-bottom: 0.5rem;
@@ -60,7 +62,7 @@ section.feature {
 section.feature-bubbles {
   padding: 11rem 0;
 
-  @media (max-width:620px){
+  @include breakpoint(small only) {
     padding-top: 3rem;
     padding-bottom: 0;
   }
@@ -79,11 +81,11 @@ section.feature-traffic {
 section.feature-platforms {
   padding: 16rem 0;
 
-  @media (max-width:1024px){
+  @include breakpoint(medium down) {
     padding: 14.5rem 0;
   }
 
-  @media (max-width:620px){
+  @include breakpoint(small only) {
     padding-top: 3rem;
     padding-bottom: 0;
   }
@@ -93,7 +95,7 @@ section.feature-analytics {
   padding: 14rem 0;
   @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.15), inset);
 
-  @media (max-width:620px){
+  @include breakpoint(small only) {
     padding-top: 3rem;
     padding-bottom: 0;
   }
@@ -122,7 +124,7 @@ section.cta {
   padding: 8rem 0;
   @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.15), inset);
 
-  @media (max-width:620px){
+  @include breakpoint(small only) {
     padding: 5rem 0;
   }
 }

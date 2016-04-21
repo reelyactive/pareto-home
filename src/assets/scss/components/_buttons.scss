@@ -2,12 +2,12 @@
   font-weight: 600;
   text-transform: uppercase;
 
-  @media (max-width:1024px){
+  @include breakpoint(medium down) {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
   }
 
-  @media (max-width:620px){
+  @include breakpoint(small only) {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -16,7 +16,7 @@
 .button + .button {
   margin-left: 1rem;
 
-  @media (max-width:1024px){
+  @include breakpoint(medium down) {
     margin-left: 0.5rem;
   }
 }

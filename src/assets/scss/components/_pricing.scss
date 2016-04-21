@@ -1,0 +1,184 @@
+.pricing-header {
+  padding: 3rem 0;
+}
+
+.pricing-table {
+  padding-bottom: 5rem;
+
+  .pricing-item {
+    color: $dark-gray;
+    width: 23%;
+  }
+
+  .pricing-item:nth-child(n+5) {
+    margin-left: 1%;
+  }
+
+  .pricing-item-padding {
+    background-color: $light-gray;
+    padding: 1rem;
+  }
+
+  .pricing-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .pricing-price {
+    padding-bottom: 2rem;
+  }
+
+  .pricing-price span {
+    vertical-align: text-top;
+    line-height: 0.5;
+    padding-right: 0.2rem;
+  }
+
+  .pricing-price-alt {
+    padding-top: 0.8rem;
+  }
+
+  .pricing-amount {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  .pricing-description {
+    display: table;
+    margin-bottom: 0;
+    p {
+      display: table-cell;
+      font-weight: 600;
+      font-size: 0.8rem;
+      vertical-align: bottom;
+    }
+  }
+
+  .pricing-feature-list {
+    list-style: none;
+    margin: 0;
+    text-align: right;
+    i {
+      float: left;
+      margin-top: -2px;
+    }
+  }
+
+  .pricing-action {
+    background: $medium-gray;
+    color: $light-gray;
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  hr {
+    border-color: $medium-gray;
+    margin-top: 0.5rem;
+  }
+
+  .pricing-vertical-more-options {
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    text-align: center;
+    width: 4%;
+    float: left;
+    padding-right: 0.8rem;
+    span {
+      color: $dark-gray;
+      font-size: 0.8rem;
+    }
+  }
+
+  // Styling for the starter kit
+  .pricing-item.pricing-item-starterkit {
+    color: $black;
+
+    .pricing-above {
+      background: $primary-color;
+      color: $white;
+      display: block;
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 0.5rem;
+      text-align: center;
+      width: 100%;
+    }
+
+    .pricing-price {
+      color: $primary-color;
+    }
+
+    .pricing-action {
+      background: $primary-color;
+      color: $white;
+    }
+  }
+}
+
+@include breakpoint(medium down) {
+  .pricing-table {
+    .pricing-item {
+      width: 32%;
+    }
+
+    .pricing-item:nth-child(n+5) {
+      margin-left: 2%;
+    }
+
+    .pricing-title {
+      font-size: 1.4rem;
+    }
+
+    .pricing-description {
+      p {
+        font-weight: 400;
+        font-size: 0.8rem;
+      }
+    }
+
+    .pricing-feature-list {
+      font-size: 0.8rem;
+      text-align: left;
+      i {
+        margin-top: -1px;
+        margin-right: 0.3rem;
+      }
+    }
+
+    .pricing-horizontal-more-options {
+      color: $dark-gray;
+      margin: 1rem auto;
+      text-align: center;
+      width: 100%;
+    }
+
+    // Styling for the starter kit
+    .pricing-item.pricing-item-starterkit {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 370px;
+      width: 100%;
+    }
+  }
+}
+
+@include breakpoint(small only) {
+  .pricing-table {
+    .pricing-item:nth-child(n) {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0.5rem;
+      max-width: 370px;
+      width: 100%;
+    }
+  }
+}

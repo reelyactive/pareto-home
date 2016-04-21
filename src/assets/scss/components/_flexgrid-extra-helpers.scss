@@ -1,4 +1,4 @@
-@media (max-width:620px){
+@include breakpoint(small only) {
   .small-shrink {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
