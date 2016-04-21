@@ -14,9 +14,21 @@ npm install
 ```
 
 ##Foundation CLI
-To see the website or build a production version, all the basic commands are here
+To see the website in progress or build a production version, all the basic commands are here
 
 https://github.com/zurb/foundation-cli#commands
 
-##Structure
+##Editing
+The prototyping files are all inside the ```src``` folder. This is where changes should be made.
+The default layout is inside ```layouts```.
+The homepage (and the others) are inside ```pages```.
+Sections like the navigation, the footer and the menu are inside ```partials```.
+
+Everyting else (JS, SCSS, images and fonts) are inside ```assets```.
+
+##Production
+Once we're happy with the results, we can compile the production files:
+```foundation build```
+
+They will all go inside ```dist```, nicely compressed and organized.
 
