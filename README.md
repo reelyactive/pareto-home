@@ -20,8 +20,11 @@ https://github.com/zurb/foundation-cli#commands
 
 ##Editing
 The prototyping files are all inside the ```src``` folder. This is where changes should be made.
+
 The default layout is inside ```layouts```.
+
 The homepage (and the others) are inside ```pages```.
+
 Sections like the navigation, the footer and the menu are inside ```partials```.
 
 Everyting else (JS, SCSS, images and fonts) are inside ```assets```.
