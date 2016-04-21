@@ -19,6 +19,7 @@ section.feature {
     position: absolute;
     bottom: 0;
     width: 64rem;
+    filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.15));
 
     &.right-side {
       left: 42%;
