@@ -1,0 +1,22 @@
+/*.main-nav {
+  padding-top: 2rem;
+  font-size: 0.95rem;
+}*/
+
+#main-nav {
+  padding-top: 2rem;
+}
+
+.menu > li {
+  text-align: center;
+  font-size: 1rem;
+
+  & > a {color: $light-gray;}
+  & > a:hover { color: $white; }
+
+  .button {
+    margin-left: 1rem;
+    margin-top: 0.25rem;
+    padding: 1.1em 2.4em 0.8rem;
+  }
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="{{ title }}">
+    <meta itemprop="description" content="{{ description }}">
+    <meta itemprop="image" content="{{root}}{{ social-img-url }}">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@reelyActive">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:creator" content="@reelyActive">
+    <meta name="twitter:image:src" content="{{root}}{{ social-img-url }}">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:url" content="http://getpareto.com" />
+    <meta property="og:image" content="{{root}}{{ social-img-url }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:site_name" content="Pareto" />
+  </head>
+  <body>
+    {{> body}}
+    {{> footer}}
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+.button {
+  font-weight: 600;
+  text-transform: uppercase;
+
+  @media (max-width:1024px){
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  @media (max-width:620px){
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.button + .button {
+  margin-left: 1rem;
+
+  @media (max-width:1024px){
+    margin-left: 0.5rem;
+  }
+}
+
+.button.hollow {
+  &:hover {
+    background: $primary-color;
+    border-color: $primary-color;
+    color: $white;
+  }
+
+  &:focus {
+    background: scale-color($primary-color, $lightness: -10%);
+    border-color: $primary-color;
+    color: $white;
+  }
+}
+
+.button.white {
+  color: $white;
+  border-color: $white;
+
+  &:hover {
+    background: $primary-color;
+    border-color: $white;
+    color: $white;
+  }
+
+  &:focus {
+    background: scale-color($primary-color, $lightness: -10%);
+    border-color: $white;
+    color: $white;
+  }
+}

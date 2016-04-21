@@ -1,0 +1,12 @@
+@include font-face(Montserrat, fonts/montserrat-ultralight-webfont, 200);
+@include font-face(Montserrat, fonts/montserrat-light-webfont, 300);
+@include font-face(Montserrat, fonts/montserrat-regular-webfont, 400);
+@include font-face(Montserrat, fonts/montserrat-semibold-webfont, 600);
+
+h1 {font-weight: 300;}
+h2 {font-weight: 200;}
+h3 {font-weight: 400;}
+h4 {font-weight: 400;}
+h5 {font-weight: 300;}
+h6 {font-weight: 600;}
+p {font-weight: 300;}

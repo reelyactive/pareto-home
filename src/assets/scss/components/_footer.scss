@@ -1,0 +1,12 @@
+footer {
+  background-color: $light-gray;
+  padding: 1rem 0;
+  color: $medium-gray;
+
+  .footer-menu a {
+    color: $medium-gray;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 0 1rem;
+  }
+}
