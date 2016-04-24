@@ -124,6 +124,14 @@
   }
 }
 
+.pricing-faq {
+  padding: 3rem;
+
+  h2, p {
+    margin-bottom: 3rem;
+  }
+}
+
 @include breakpoint(medium down) {
   .pricing-table {
     .pricing-item {
@@ -172,7 +180,12 @@
 }
 
 @include breakpoint(small only) {
+  .pricing-header {
+    padding-bottom: 0.75rem;
+  }
+
   .pricing-table {
+    padding-bottom: 0.5rem;
     .pricing-item:nth-child(n) {
       margin-left: auto;
       margin-right: auto;
@@ -181,12 +194,8 @@
       width: 100%;
     }
   }
-}
 
-.pricing-faq {
-  padding: 3rem;
-
-  h2, p {
-    margin-bottom: 3rem;
+  .pricing-faq {
+    padding: 1rem 0 0; 
   }
 }

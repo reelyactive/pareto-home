@@ -1,0 +1,45 @@
+section.connect-hero {
+  background: rgba(18,125,255,1);
+  background: -moz-linear-gradient(-45deg, rgba(18,125,255,1) 0%, rgba(18,125,255,1) 30%, rgba(56,175,255,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(18,125,255,1)), color-stop(30%, rgba(18,125,255,1)), color-stop(100%, rgba(56,175,255,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(18,125,255,1) 0%, rgba(18,125,255,1) 30%, rgba(56,175,255,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(18,125,255,1) 0%, rgba(18,125,255,1) 30%, rgba(56,175,255,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(18,125,255,1) 0%, rgba(18,125,255,1) 30%, rgba(56,175,255,1) 100%);
+  background: linear-gradient(135deg, rgba(18,125,255,1) 0%, rgba(18,125,255,1) 30%, rgba(56,175,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#127dff', endColorstr='#38afff', GradientType=1 );
+
+  .row {
+    color: $white;
+  }
+
+  .connect-header {
+    padding: 3rem 0;
+  }
+
+  .reelyactive-cloud {
+    bottom: -2.5rem;
+    margin-top: -2.5rem;
+    position: relative;
+    @include breakpoint(small only) {
+        bottom: -1rem;
+        margin-top: -3rem;
+    }
+  }
+}
+
+section.connect-steps {
+  padding: 4rem 0 6rem;
+
+  .row {
+    padding: 2rem 0;
+  }
+
+  @include breakpoint(small only) {
+    padding: 2rem 0;
+    
+    code {
+      font-size: 0.6rem;
+      padding: 0.5rem;
+    }
+  }
+}

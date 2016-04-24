@@ -22,6 +22,10 @@
       }
     }
   }
+  
+  @include breakpoint(small only) {
+    padding-top: 0.75rem;
+  }
 }
 
 #main-nav.is-white {

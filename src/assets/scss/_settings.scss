@@ -107,7 +107,7 @@ $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 36,
+    'h1': 28,
     'h2': 26,
     'h3': 18,
     'h4': 18,
@@ -145,13 +145,13 @@ $code-font-family: $font-family-monospace;
 $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
-$code-padding: rem-calc(2 5 1);
+$code-padding: 0.5rem 1rem;
 $anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
-$hr-border: 1px solid $light-gray;
+$hr-border: 1px solid #dddddd;
 $hr-margin: rem-calc(20) auto;
 $list-lineheight: $paragraph-lineheight;
 $list-margin-bottom: $paragraph-margin-bottom;
