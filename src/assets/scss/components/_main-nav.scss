@@ -1,37 +1,50 @@
-/*.main-nav {
-  padding-top: 2rem;
-  font-size: 0.95rem;
-}*/
-
 #main-nav {
   padding-top: 2rem;
-}
 
-.nav-white .menu {
-  & > li > a {color: $light-gray;}
-  & > li > a:hover { color: $white; }
+  .pareto-white-logo {
+    display: none;
+  }
 
-  .button {
-    border-color: $white;
-    &:hover {
-      border-color: $white;
-    }
-    &:focus {
-      background: scale-color($primary-color, $lightness: -10%);
+  .menu > li {
+    text-align: center;
+    font-size: 1rem;
+
+    & > a {color: $dark-gray;}
+    &> a:hover { color: $black; }
+
+    .button {
+      color: $primary-color;
+      margin-left: 1rem;
+      margin-top: 0.25rem;
+      padding: 1.1em 2.4em 0.8rem;
+      &:hover {
+        color: $white;
+      }
     }
   }
 }
 
-.menu > li {
-  text-align: center;
-  font-size: 1rem;
+#main-nav.is-white {
+  .pareto-color-logo {
+    display: none;
+  }
 
-  & > a {color: $dark-gray;}
-  & > a:hover { color: $black; }
+  .pareto-white-logo {
+    display: block;
+  }
 
-  .button {
-    margin-left: 1rem;
-    margin-top: 0.25rem;
-    padding: 1.1em 2.4em 0.8rem;
+  .menu > li {
+    & > a {color: $light-gray;}
+    & > a:hover { color: $white; }
+
+    .button {
+      border-color: $white;
+      &:hover {
+        border-color: $white;
+      }
+      &:focus {
+        background: scale-color($primary-color, $lightness: -10%);
+      }
+    }
   }
 }
