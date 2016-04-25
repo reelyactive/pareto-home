@@ -13,6 +13,7 @@ UNCSS_OPTIONS:
   ignore:
     - !!js/regexp .foundation-mq
     - !!js/regexp .is-.*
+    - !!js/regexp ^animation\..*
 
 # Gulp will reference these paths when it copies files
 PATHS:
