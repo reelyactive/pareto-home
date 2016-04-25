@@ -40,6 +40,10 @@
   color: $white;
   border-color: $white;
 
+  &.hollow {
+    background: rgba(0,0,0,0.15);
+  }
+
   &:hover {
     background: $primary-color;
     border-color: $white;
