@@ -10,7 +10,8 @@
     font-size: 1rem;
 
     & > a {color: $dark-gray;}
-    &> a:hover { color: $black; }
+    & > a.is-active { font-weight: 600;}
+    & > a:hover { color: $black; }
 
     .button {
       color: $primary-color;
@@ -22,7 +23,7 @@
       }
     }
   }
-  
+
   @include breakpoint(small only) {
     padding-top: 0.75rem;
   }

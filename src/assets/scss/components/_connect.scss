@@ -13,7 +13,7 @@ section.connect-hero {
   }
 
   .connect-header {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
 
   .reelyactive-cloud {
@@ -22,7 +22,7 @@ section.connect-hero {
     position: relative;
     @include breakpoint(small only) {
         bottom: -1rem;
-        margin-top: -3rem;
+        margin-top: -2rem;
     }
   }
 }
@@ -36,7 +36,7 @@ section.connect-steps {
 
   @include breakpoint(small only) {
     padding: 2rem 0;
-    
+
     code {
       font-size: 0.6rem;
       padding: 0.5rem;
