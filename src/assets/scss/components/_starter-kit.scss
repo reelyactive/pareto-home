@@ -4,7 +4,14 @@ section.starter-kit-hero {
     padding: 4rem 0;
   }
 
-.starter-kit-img {
-  padding: 1rem 0 3rem;
+  .starter-kit-img {
+    padding: 1rem 0 3rem;
+  }
 }
+
+section.starter-kit-info {
+  padding-bottom: 3rem;
+  .row {
+    padding: 2rem 0;
+  }
 }
