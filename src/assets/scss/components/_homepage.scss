@@ -40,7 +40,6 @@ section.feature {
     position: absolute;
     bottom: 0;
     width: 64rem;
-    filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.15));
 
     &.right-side {
       left: 42%;
@@ -81,6 +80,10 @@ section.feature {
 section.feature-bubbles {
   padding: 11rem 0;
 
+  .feature-image {
+    filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.15));
+  }
+
   @include breakpoint(small only) {
     padding-top: 3rem;
     padding-bottom: 0;
@@ -90,6 +93,10 @@ section.feature-bubbles {
 section.feature-traffic {
   background: $light-gray;
   @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.15), inset);
+
+  .feature-img {
+    filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.15));
+  }
 
   & > .row:first-of-type {
     padding-top: 4rem;
@@ -104,6 +111,10 @@ section.feature-traffic {
 
 section.feature-platforms {
   padding: 16rem 0;
+
+  .feature-image {
+    filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.15));
+  }
 
   @include breakpoint(medium down) {
     padding: 14.5rem 0;

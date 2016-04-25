@@ -18,16 +18,6 @@ section.connect-hero {
       padding: 1rem 0;
     }
   }
-
-  .reelyactive-cloud {
-    bottom: -2.5rem;
-    margin-top: -2.5rem;
-    position: relative;
-    @include breakpoint(small only) {
-        bottom: -1rem;
-        margin-top: -0.5rem;
-    }
-  }
 }
 
 section.connect-steps {
