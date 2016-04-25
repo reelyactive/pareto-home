@@ -89,9 +89,11 @@
     -ms-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
     text-align: center;
+    display: flexbox;
     width: 4%;
-    float: left;
-    padding-right: 0.8rem;
+    align-self: center;
+    align-content: center;
+    padding-right: 1%;
     span {
       color: $dark-gray;
       font-size: 0.8rem;
@@ -196,6 +198,6 @@
   }
 
   .pricing-faq {
-    padding: 1rem 0 0; 
+    padding: 1rem 0 0;
   }
 }
