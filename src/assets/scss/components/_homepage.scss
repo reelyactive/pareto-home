@@ -2,7 +2,7 @@ section.homepage-hero {
   height: 100vh;
   background-image: url(../../assets/img/homepage_background.jpg);
   background-size: cover;
-  background-position: 30% center;
+  background-position: 38% center;
   @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.15), inset);
 
   .homepage-header {
@@ -59,14 +59,14 @@ section.feature {
 
   @include breakpoint(small only) {
     & > .row:first-of-type {
-      padding-top: 1rem;
+      padding-top: 0;
       padding-bottom: 0.5rem;
     }
 
     .feature-img {
       bottom: 0;
       position: relative;
-      width: 55rem;
+      width: 35rem;
 
       &.right-side {
         left: 1rem;
@@ -94,6 +94,11 @@ section.feature-traffic {
   & > .row:first-of-type {
     padding-top: 4rem;
     padding-bottom: 1.5rem;
+
+    @include breakpoint(small only) {
+      padding-top: 3rem;
+      padding-bottom: 0;
+    }
   }
 }
 
@@ -135,6 +140,11 @@ section.feature-partners {
 
     .column {
       padding-bottom: 1rem;
+    }
+  }
+  @include breakpoint(small only) {
+    .row.partners-bubbles {
+      padding-top: 0.5rem;
     }
   }
 }

@@ -1,3 +1,13 @@
+@include breakpoint(medium) {
+  .medium-shrink {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    max-width: 100%;
+  }
+}
+
+
 @include breakpoint(small only) {
   .small-shrink {
     -webkit-flex: 0 0 auto;

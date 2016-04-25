@@ -1,31 +1,63 @@
 #main-nav {
   padding-top: 2rem;
 
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .pareto-white-logo {
     display: none;
   }
 
-  .menu > li {
-    text-align: center;
-    font-size: 1rem;
+  .menu {
+    display: flex;
+    justify-content: flex-end;
 
-    & > a {color: $dark-gray;}
-    & > a.is-active { font-weight: 600;}
-    & > a:hover { color: $black; }
+    & > li {
+      font-size: 1rem;
 
-    .button {
-      color: $primary-color;
-      margin-left: 1rem;
-      margin-top: 0.25rem;
-      padding: 1.1em 2.4em 0.8rem;
-      &:hover {
-        color: $white;
+      & > a {color: $dark-gray;}
+      & > a.is-active { font-weight: 600;}
+      & > a:hover { color: $black; }
+
+      .button {
+        color: $primary-color;
+        margin-left: 1rem;
+        margin-top: 0.25rem;
+        padding: 1.1em 2.4em 0.8rem;
+        &:hover {
+          color: $white;
+        }
       }
     }
   }
 
   @include breakpoint(small only) {
-    padding-top: 0.75rem;
+    padding-top: 1.5rem;
+
+    .menu {
+      justify-content: center;
+
+      & > li {
+        padding: 1rem 0;
+
+        & > a {
+          padding-left: 0.6rem;
+          padding-right: 0.6rem;
+          font-size: 0.85rem;
+        }
+
+        .button {
+          color: $black;
+          border: none;
+          text-decoration: underline;
+          text-transform: initial;
+          padding: 1rem 0.6rem;;
+          margin: 0;
+        }
+      }
+    }
   }
 }
 
@@ -35,7 +67,8 @@
   }
 
   .pareto-white-logo {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .menu > li {
