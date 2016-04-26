@@ -8,7 +8,12 @@ section.homepage-hero {
   .homepage-header {
     color: $white;
     height: 80%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     width: 73rem;
+  }
+
+  .button {
+    text-shadow: none;
   }
 
   @include breakpoint(medium only) {
