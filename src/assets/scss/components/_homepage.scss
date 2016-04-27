@@ -45,6 +45,7 @@ section.feature {
     position: absolute;
     bottom: 0;
     width: 64rem;
+    z-index: -9;
 
     &.right-side {
       left: 42%;
@@ -83,9 +84,9 @@ section.feature {
 }
 
 section.feature-bubbles {
-  padding: 11rem 0;
+  padding: 14rem 0;
 
-  .feature-image {
+  .feature-img {
     filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.15));
   }
 
@@ -99,8 +100,8 @@ section.feature-traffic {
   background: $light-gray;
   @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.15), inset);
 
-  .feature-img {
-    filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.15));
+  .feature-img-relative {
+    filter: drop-shadow(0px 0px 4px rgba(0,0,0,0.15));
   }
 
   & > .row:first-of-type {
@@ -117,17 +118,23 @@ section.feature-traffic {
 section.feature-platforms {
   padding: 16rem 0;
 
-  .feature-image {
-    filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.15));
+  .feature-img {
+    filter: drop-shadow(0px 0px 4px rgba(0,0,0,0.15));
   }
 
   @include breakpoint(medium down) {
-    padding: 14.5rem 0;
+    padding: 9.5rem 0;
+    .feature-img {
+      width: 41rem;
+    }
   }
 
   @include breakpoint(small only) {
     padding-top: 3rem;
     padding-bottom: 0;
+    .feature-img {
+      width: 36rem;
+    }
   }
 }
 
