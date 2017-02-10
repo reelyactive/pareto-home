@@ -10,6 +10,10 @@ footer {
     padding: 0 1rem;
   }
 
+  .copyright a {
+    color: $medium-gray;
+  }
+
   @include breakpoint(small only) {
     font-size: 0.8rem;
   }
