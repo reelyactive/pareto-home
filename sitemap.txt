@@ -1,5 +1,5 @@
-http://getpareto.com/index.html
-http://getpareto.com/starter-kit/index.html
-http://getpareto.com/connect/index.html
-http://getpareto.com/connect-ip/index.html
-http://getpareto.com/pricing/index.html
+https://getpareto.com/index.html
+https://getpareto.com/starter-kit/index.html
+https://getpareto.com/connect/index.html
+https://getpareto.com/connect-ip/index.html
+https://getpareto.com/pricing/index.html
