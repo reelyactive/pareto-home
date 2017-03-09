@@ -1,5 +1,6 @@
 https://getpareto.com/index.html
 https://getpareto.com/starter-kit/index.html
 https://getpareto.com/connect/index.html
+https://getpareto.com/connect-usb/index.html
 https://getpareto.com/connect-ip/index.html
 https://getpareto.com/pricing/index.html
