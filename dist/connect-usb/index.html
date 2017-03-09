@@ -5,24 +5,24 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/app.css">
-    <title>Connect your Starter Kit to Pareto by reelyActive</title>
+    <title>Connect your USB Starter Kit to Pareto by reelyActive</title>
     <meta name="description" content="Connect your reelyActive starter kit to Pareto in three easy steps.">
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Connect your Starter Kit to Pareto by reelyActive">
+    <meta itemprop="name" content="Connect your USB Starter Kit to Pareto by reelyActive">
     <meta itemprop="description" content="Connect your reelyActive starter kit to Pareto in three easy steps.">
     <meta itemprop="image" content="../assets/img/pareto-social-share-img.jpg">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@reelyActive">
-    <meta name="twitter:title" content="Connect your Starter Kit to Pareto by reelyActive">
+    <meta name="twitter:title" content="Connect your USB Starter Kit to Pareto by reelyActive">
     <meta name="twitter:description" content="Connect your reelyActive starter kit to Pareto in three easy steps.">
     <meta name="twitter:creator" content="@reelyActive">
     <meta name="twitter:image:src" content="../assets/img/pareto-social-share-img.jpg">
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="Connect your Starter Kit to Pareto by reelyActive" />
+    <meta property="og:title" content="Connect your USB Starter Kit to Pareto by reelyActive" />
     <meta property="og:url" content="http://getpareto.com" />
     <meta property="og:image" content="../assets/img/pareto-social-share-img.jpg" />
     <meta property="og:description" content="Connect your reelyActive starter kit to Pareto in three easy steps." />
@@ -76,8 +76,8 @@
     
       <div class="row align-center connect-header">
         <div class="column text-center animated">
-          <h1>Connect your starter kit in two easy steps</h1>
-          <h5>The Owl-in-One will relay the sensor data to the Pareto cloud platform.</a></h5>
+          <h1>Connect your starter kit in three easy steps</h1>
+          <h5>Your computer will relay the sensor data to the Pareto cloud platform.</a></h5>
         </div>
       </div>
     </section>
@@ -85,29 +85,39 @@
     <section class="connect-steps">
       <div class="row align-center starter-kit-header large-collapse">
         <div class="column small-10 medium-6 large-5 starter-kit-img animated">
-          <img src="../assets/img/starter-kit.jpg" alt="reelyActive Starter Kit"/>
+          <img src="../assets/img/starter-kit-usb.jpg" alt="reelyActive Starter Kit"/>
         </div>
         <div class="column small-12 medium-10 large-9 text-center animated">
-          <p>Not your starter kit? <a href="../connect-usb">Click here.</a></p>
+          <p>Not your starter kit? <a href="../connect-ip">Click here.</a></p>
         </div>
       </div>
       <div class="row align-center">
         <div class="column small-11 medium-8 large-6 text-left medium-text-center animated">
-          <h2>1. Connect Ethernet</h2>
-          <p>Connect the Owl-in-One to a free Ethernet port on your router/switch.</p>
-        </div>
-      </div>
-      <hr class="small-12 medium-4"/>
-      <div class="row align-center">
-        <div class="column small-11 medium-8 large-6 text-left medium-text-center animated">
-          <h2>2. Apply power</h2>
-          <p>Connect the Owl-in-One to AC power via the provided adapter.  Alternatively, it can be powered by a USB port that provides 1A of power.</p>
+          <h2>1. Install Node.js</h2>
+          <p>Install Node.js on the computer to which your starter kit will be connected. We recommend you install the Long Term Support version.</p>
+          <a href="https://nodejs.org//" target="_blank" class="button">Let's do it!</a>
         </div>
       </div>
       <hr class="small-12 medium-4"/>
       <div class="row align-center">
         <div class="column small-11 medium-8 large-6 text-left medium-text-center animated">
-          <p>The Owl-in-One is now relaying the sensor data to the Pareto cloud platform.  <a href="https://pareto.reelyactive.com/#/page/login" target="_blank">Log in</a> and begin your trial!</p>
+          <h2>2. Install barnowl-relay</h2>
+          <p>Once the Node.js installation completes, open a terminal or command prompt and enter:</p>
+          <code class="text-left">npm install -g barnowl-relay</code>
+        </div>
+      </div>
+      <hr class="small-12 medium-4"/>
+      <div class="row align-center">
+        <div class="column small-11 medium-8 large-6 text-left medium-text-center animated">
+          <h2>3. Connect and run</h2>
+          <p>With the <a href="../starter-kit">starter kit</a> plugged in to the USB port of your computer, enter via the terminal:</p>
+          <code class="text-left">barnowl-relay -sv</code>
+        </div>
+      </div>
+      <hr class="small-12 medium-4"/>
+      <div class="row align-center">
+        <div class="column small-11 medium-8 large-6 text-left medium-text-center animated">
+          <p>Your computer is now relaying the sensor data to the Pareto cloud platform.  <a href="https://pareto.reelyactive.com/#/page/login" target="_blank">Log in</a> and begin your trial!</p>
         </div>
       </div>
     </section>
