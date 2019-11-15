@@ -100,6 +100,10 @@ body {
   min-height: 50vw;
 }
 
+.page-title-header {
+  background: url("../images/title-header.jpg") no-repeat center center;
+}
+
 .bg-reelylight {
   background-color: #5489a2;
 }
