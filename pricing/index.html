@@ -155,12 +155,12 @@
       <!----- Subscription model ----->
       <div class="row justify-content-center py-4">
         <div class="col-sm-12 col-md-10 col-xl-8">
-          <div class="jumbotron">
+          <div class="jumbotron bg-reelyactive text-light">
             <h1 class="display-4"> Subscription model </h1>
             <p class="lead"> Enjoy prioritised, discounted service and support while promoting the continuous development of Pareto Anywhere. </p>
             <div class="row">
               <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 my-2">
-                <div class="card text-center">
+                <div class="card text-center text-dark">
                   <div class="card-body">
                     <span class="card-title display-4"> $2500 </span>
                   </div>
@@ -171,7 +171,7 @@
                 <h4> Up to 100 <small>units of infrastructure</small> </h4>
               </div>
               <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 my-2">
-                <div class="card text-center">
+                <div class="card text-center text-dark">
                   <div class="card-body">
                     <span class="card-title display-4"> $25 </span>
                   </div>
@@ -180,6 +180,221 @@
               </div>
               <div class="col-sm-6 col-md-6 col-lg-8 col-xl-2 my-2">
                 <h4> Each additional <small>unit of infrastructure</small> </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----- Comparison table ----->
+      <div class="row justify-content-center py-4">
+        <div class="col-sm-12 col-md-10 col-xl-8">
+          <div class="row">
+            <div class="col-md-12 col-lg-3 mb-2">
+              <h2> Compare Models </h2>
+            </div>
+            <div class="col-md-12 col-lg-9 mb-2">
+              <table class="table table-hover">
+                <thead class="thead-dark">
+                  <tr>
+                    <th> &nbsp; </th>
+                    <th> <em>Without</em> Subscription </th>
+                    <th> <em>With</em> Subscription </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-dark">
+                    <th colspan=3> Benefits </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-code"></i> &nbsp;
+                      Software access and use
+                    </td>
+                    <td> Free </td>
+                    <td> Free </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-book-open"></i> &nbsp;
+                      Documentation access
+                    </td>
+                    <td> Free </td>
+                    <td> Free </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-code-branch"></i> &nbsp;
+                      Feature requests & bug fixes
+                    </td>
+                    <td> Availability-based </td>
+                    <td>
+                      Priority&nbsp;
+                      <span class="badge badge-pill badge-reelyactive">
+                        <i class="fas fa-thumbs-up"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-user-cog"></i> &nbsp;
+                      Support & service access
+                    </td>
+                    <td> Availability-based </td>
+                    <td>
+                      Priority&nbsp;
+                      <span class="badge badge-pill badge-reelyactive">
+                        <i class="fas fa-thumbs-up"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-user-clock"></i> &nbsp;
+                      Support & service pricing </td>
+                    <td> Standard rates </td>
+                    <td>
+                      Preferred rates&nbsp;
+                      <span class="badge badge-pill badge-reelyactive">
+                        <i class="fas fa-thumbs-up"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr class="table-dark">
+                    <th colspan=3> Pricing </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-file-invoice-dollar"></i> &nbsp;
+                      First 100 infrastructure units
+                    </td>
+                    <td> $0 </td>
+                    <td> $2500/year (total) </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="fas fa-hand-holding-usd"></i> &nbsp;
+                      Additional infrastructure units
+                    </td>
+                    <td> $0 </td>
+                    <td> $25/year (each) </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----- Business model FAQ ----->
+      <div class="row justify-content-center py-4">
+        <div class="col-sm-12 col-md-10 col-xl-8">
+          <h3 class="mt-4"> Business Model FAQ </h3>
+          <p> The how and why of our business model. </p>
+          <div class="accordion" id="modelFaq">
+            <div class="card">
+              <div class="card-header" id="headingInfrastructure">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button"
+                          data-toggle="collapse"
+                          data-target="#collapseInfrastructure"
+                          aria-expanded="true"
+                          aria-controls="collapseInfrastructure">
+                    <i class="fas fa-question-circle"></i> &nbsp;
+                    What is a unit of infrastructure?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseInfrastructure" class="collapse show"
+                   aria-labelledby="headingInfrastructure"
+                   data-parent="#modelFaq">
+                <div class="card-body">
+                  <span class="badge badge-reelyactive"> <i class="fas fa-broadcast-tower"></i> </span> &nbsp; A unit of infrastructure is any radio device whose received packet stream is processed by Pareto Anywhere software.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingPricing">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button"
+                          data-toggle="collapse"
+                          data-target="#collapsePricing"
+                          aria-expanded="true"
+                          aria-controls="collapsePricing">
+                    <i class="fas fa-question-circle"></i> &nbsp;
+                    Why is subscription pricing based on units of infrastructure?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapsePricing" class="collapse"
+                   aria-labelledby="headingPricing"
+                   data-parent="#modelFaq">
+                <div class="card-body">
+                  <span class="badge badge-success"> <i class="fas fa-chart-line"></i> </span> &nbsp; The number of units of infrastructure is correlated with the volume of data to process, and hence the pressure on Pareto Anywhere's performance and scalability.  Contribution to the continuous development of Pareto Anywhere is indexed to these factors.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingBase">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button"
+                          data-toggle="collapse"
+                          data-target="#collapseBase"
+                          aria-expanded="true"
+                          aria-controls="collapseBase">
+                    <i class="fas fa-question-circle"></i> &nbsp;
+                    Why a base subscription fee for the first 100 units?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseBase" class="collapse"
+                   aria-labelledby="headingBase"
+                   data-parent="#modelFaq">
+                <div class="card-body">
+                  <span class="badge badge-success"> <i class="fas fa-hand-holding-heart"></i> </span> &nbsp; The base annual charge ensures we can provide a consistent, high level of service to each of our subscribers, regardless of their scale of operation.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingAnnual">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button"
+                          data-toggle="collapse"
+                          data-target="#collapseAnnual"
+                          aria-expanded="true"
+                          aria-controls="collapseAnnual">
+                    <i class="fas fa-question-circle"></i> &nbsp;
+                    Is the subscription always billed annually?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseAnnual" class="collapse"
+                   aria-labelledby="headingAnnual"
+                   data-parent="#modelFaq">
+                <div class="card-body">
+                  <span class="badge badge-success"> <i class="fas fa-check-circle"></i> &nbsp; Yes </span> &nbsp; For simplicity and efficiency, subscriptions are always billed annually, without exception.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button"
+                          data-toggle="collapse"
+                          data-target="#collapseFree"
+                          aria-expanded="true"
+                          aria-controls="collapseFree">
+                    <i class="fas fa-question-circle"></i> &nbsp;
+                    Why would I pay for a subscription when there is a no-cost option?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFree" class="collapse"
+                   aria-labelledby="headingFree"
+                   data-parent="#modelFaq">
+                <div class="card-body">
+                  <span class="badge badge-success"> <i class="fas fa-balance-scale"></i> </span> &nbsp; In a word: <em>value</em>.  Years of experience have led us to this model which maximises the value for those who choose to subscribe.  If you don't find sufficient value in the subscription model, then the no-cost model is surely the better option for you.  That's exactly how we feel it should be!
+                </div>
               </div>
             </div>
           </div>
