@@ -157,6 +157,173 @@
             <img src="../images/open-architecture-overview.jpg"
                  class="img-fluid">
           </div>
+          <p class="text-justify"> Tens of billions of radio-identifiable <em>devices</em> are shipping annually.  Countless vendors, including reelyActive, offer radio-identification and location <em>infrastructure</em>.  Our open source <em>middleware</em> translates their output into a real-time, web-standard data stream to feed any <em>database</em> and/or drive any web <em>application</em>. </p>
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link" id="devicestab" data-toggle="tab"
+                 href="#devices" role="tab" aria-controls="devices"
+                 aria-selected="false">
+                <i class="fas fa-wifi"></i> Devices
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="infratab" data-toggle="tab"
+                 href="#infrastructure" role="tab" aria-controls="infrastructure"
+                 aria-selected="false">
+                <i class="fas fa-network-wired"></i> Infrastructure
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="middletab" data-toggle="tab"
+                 href="#middleware" role="tab" aria-controls="middleware"
+                 aria-selected="true">
+                <i class="fas fa-table"></i> Middleware
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="databasestab" data-toggle="tab"
+                 href="#databases" role="tab" aria-controls="databases"
+                 aria-selected="false">
+                <i class="fas fa-database"></i> Databases
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="applicationstab" data-toggle="tab"
+                 href="#applications" role="tab" aria-controls="applications"
+                 aria-selected="false">
+                <i class="fas fa-layer-group"></i> Applications
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content tab-content-reelyactive">
+            <!-- Radio-identifiable devices -->
+            <div class="tab-pane fade" id="devices"
+                 role="tabpanel" aria-labelledby="devicestab">
+              <h4 class="mt-2"> Radio-identifiable devices </h4>
+              <p class="lead"> Representing people, products and places at a human scale </p>
+              <dl class="row">
+                <dt class="col-sm-3">Are Bluetooth devices compatible?</dt>
+                <dd class="col-sm-9">
+                  Yes.  Specifically <b>Bluetooth Low Energy</b> devices that transmit advertising packets.  These include beacons as well as most smartphones, wearables and smart appliances. <br>
+                  <span class="badge badge-reelyactive">
+                    <i class="fas fa-info-circle"></i>
+                  </span>
+                  &nbsp; <em> As of 2018, there are approximiately 4 billion Bluetooth devices shipping annually! </em>
+                </dd>
+                <dt class="col-sm-3">Are RFID devices compatible?</dt>
+                <dd class="col-sm-9">
+                  Yes.  Pareto Anywhere's core data structure is capable of representing any RFID device.  Support for <b>RAIN RFID</b> is prioritised as the current leading standard. <br>
+                  <span class="badge badge-reelyactive">
+                    <i class="fas fa-info-circle"></i>
+                  </span>
+                  &nbsp; <em> As of 2018, there are approximately 15 billion RAIN RFID devices shipping annually! </em>
+                </dd>
+              </dl>
+            </div>
+            <!-- Radio-identification infrastructure -->
+            <div class="tab-pane fade" id="infrastructure" role="tabpanel"
+                 aria-labelledby="infratab">
+              <h4 class="mt-2"> Radio-identification infrastructure </h4>
+              <p class="lead"> Detecting &amp; locating people, products and places at a human scale </p>
+              <dl class="row">
+                <dt class="col-sm-3">Is there compatible reelyActive infrastructure?</dt>
+                <dd class="col-sm-9">
+                  Yes.  Pareto Anywhere works seamlessly with reelyActive's own plug-and-play hardware infrastructure.
+                  <div class="dropdown">
+                    <button class="btn btn-sm btn-outline-dark dropdown-toggle my-1"
+                            type="button" id="reelyHardMore"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> reelyActive hardware </button>
+                    <div class="dropdown-menu"
+                         aria-labelledby="reelyHardMore">
+                      <a href="https://shop.reelyactive.com/products/owl-in-one-ble"
+                         target="_blank" class="dropdown-item">
+                        <i class="fas fa-external-link-alt"></i> &nbsp;
+                        Owl-in-One (BLE)
+                      </a>
+                      <a href="https://shop.reelyactive.com/products/ra-r436"
+                         target="_blank" class="dropdown-item">
+                        <i class="fas fa-external-link-alt"></i> &nbsp;
+                        Reelceiver (BLE)
+                      </a>
+                      <a href="https://shop.reelyactive.com/products/ra-r432"
+                         target="_blank" class="dropdown-item">
+                        <i class="fas fa-external-link-alt"></i> &nbsp;
+                        Reelceiver (915MHz active RFID)
+                      </a>
+                    </div>
+                  </div>
+                </dd>
+                <dt class="col-sm-3">Is there compatible third-party infrastructure?</dt>
+                <dd class="col-sm-9">Yes.  Any receiver/transceiver providing access to the packet-level data stream is compatible with Pareto Anywhere software.<br><a class="btn btn-sm btn-outline-dark my-1" href="../for-integrators/" role="button"> For Integrators </a></dd>
+              </dl>
+            </div>
+            <!-- Middleware -->
+            <div class="tab-pane fade show active" id="middleware" role="tabpanel"
+                 aria-labelledby="middletab">
+              <h4 class="mt-2"> Pareto Anywhere: the "glue" between physical and digital </h4>
+              <p class="lead"> Connecting countless hardware and software combinations </p>
+              <dl class="row">
+                <dt class="col-sm-3">Is Pareto Anywhere open source?</dt>
+                <dd class="col-sm-9">Yes.  Pareto Anywhere is MIT-licensed open source software.<br><a class="btn btn-sm btn-outline-dark my-1" href="../open-source/" role="button"> Open Source </a></dd>
+              </dl>
+            </div>
+            <!-- Databases and analytics suites -->
+            <div class="tab-pane fade" id="databases" role="tabpanel"
+                 aria-labelledby="databasestab">
+              <h4 class="mt-2"> Databases and analytics suites </h4>
+              <p class="lead"> Storing the real-time data stream and facilitating analysis over time </p>
+              <dl class="row">
+                <dt class="col-sm-3">Is there a preferred stack?</dt>
+                <dd class="col-sm-9">
+                  Yes.  Pareto Anywhere integrates seamlessly with the open source <b>Elastic Stack</b>, using Elasticsearch as a database, Kibana as an analytics tool and APM as a monitoring tool.
+                  <div class="dropdown">
+                    <button class="btn btn-sm btn-outline-dark dropdown-toggle my-1"
+                            type="button" id="elasticStackMore"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"> Learn More </button>
+                    <div class="dropdown-menu"
+                         aria-labelledby="elasticStackMore">
+                      <a href="https://reelyactive.github.io/diy/kibana/"
+                         target="_blank" class="dropdown-item">
+                        <i class="fas fa-external-link-alt"></i> &nbsp;
+                        Kibana integration
+                      </a>
+                      <a href="https://www.elastic.co/products/elasticsearch"
+                         target="_blank" class="dropdown-item">
+                        <i class="fas fa-external-link-alt"></i> &nbsp;
+                        Elasticsearch home
+                      </a>
+                      <a href="https://www.elastic.co/products/kibana"
+                         target="_blank" class="dropdown-item">
+                        <i class="fas fa-external-link-alt"></i> &nbsp;
+                        Kibana home
+                      </a>
+                      <a href="https://www.elastic.co/products/apm"
+                         target="_blank" class="dropdown-item">
+                        <i class="fas fa-external-link-alt"></i> &nbsp;
+                        APM home
+                      </a>
+                    </div>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <!-- Software applications -->
+            <div class="tab-pane fade" id="applications" role="tabpanel"
+                 aria-labelledby="applicationstab">
+              <h4 class="mt-2"> Software applications </h4>
+              <p class="lead"> Delivering efficiencies and experiences </p>
+              <dl class="row">
+                <dt class="col-sm-3">Does Pareto Anywhere include web apps?</dt>
+                <dd class="col-sm-9">Yes.  Pareto Anywhere includes plenty of web applications to facilitate experimentation and demonstrate the many uses cases.<br><a class="btn btn-sm btn-outline-dark my-1" href="../use-cases/" role="button"> Use Cases </a></dd>
+              </dl>
+            </div>
+          </div>
+          <div class="text-center my-4">
+            <img src="../images/pareto-anywhere-open-architecture.jpg"
+                 class="img-fluid">
+          </div>
           <div class="card bg-light my-4">
             <div class="row no-gutters my-2">
               <div class="col-lg-4 text-center my-auto">
@@ -170,10 +337,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="text-center my-4">
-            <img src="../images/pareto-anywhere-open-architecture.jpg"
-                 class="img-fluid">
           </div>
         </div>
       </div>
