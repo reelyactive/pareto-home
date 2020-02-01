@@ -99,6 +99,14 @@ a {
   color: #0770a2;
 }
 
+.tab-content-reelyactive {
+  border: 1px solid #dee2e6;
+  border-top: 0px;
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  padding: .5rem 1rem;
+}
+
 .badge-reelyactive {
   color: #fff;
   background-color: #0770a2;
