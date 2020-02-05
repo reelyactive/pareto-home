@@ -125,31 +125,116 @@
         </div>
         <div class="col-sm-12 col-md-6 col-xl-7 text-center my-auto">
           <header>
-            <h1> Asset Tracking </h1>
+            <h1> Occupancy Analytics </h1>
           </header>
         </div>
       </div>
 
-      <!----- Working on it... ----->
+      <!----- Use Case Summary ----->
       <div class="row justify-content-center py-4">
         <div class="col-sm-12 col-md-10 col-xl-8">
-          <div class="card">
-            <div class="row no-gutters">
-              <div class="col-md-3 col-lg-2 text-center my-auto">
-                <h1 class="display-1">
-                  <span class="badge badge-warning">
-                    <i class="fas fa-tools"></i>
-                  </span>
-                </h1>
+          <div class="border-top border-bottom py-3">
+          <p class="lead text-center mb-0"> Make sense of how physical spaces are being used by observing the signals that are <em>already</em> present.  Collect and analyse data to continuously improve both operations and the occupant experience. </p>
+          </div>
+        </div>
+      </div>
+
+      <!----- Why? ----->
+      <div class="row justify-content-center py-4">
+        <div class="col-md-12 col-lg-6 col-xl-5 my-2">
+          <h2> Why analyse occupancy? </h2>
+          <p class="lead"> Occupants are typically the most valuable resources in any given space </p>
+          <ul>
+            <li> Objectively measure usage patterns to gain <b>actionable insights</b>
+            <li> Foster a culture of <b>continuous improvement</b>
+            <li> Optimise <b>productivity</b> and <b>experience</b> <small>(and hence the bottom line!)</small>
+          </ul>
+        </div>
+        <div class="col-md-12 col-lg-4 col-xl-3 my-2">
+          <img src="../../images/use-case-occupancy-analytics-why.jpg"
+               class="img-fluid">
+        </div>
+      </div>
+
+      <!----- What? ----->
+      <div class="row justify-content-center py-4">
+        <div class="col-sm-12 col-lg-10 col-xl-8">
+          <div class="jumbotron">
+            <h1 class="display-4"> What's measured? </h1>
+            <p class="lead"> Relative occupancy on any meaningful timescale </p>
+            <hr class="my-4">
+            <div class="row">
+              <div class="col-md-12 col-lg-6 col-xl-5 my-2">
+                <img src="../../images/use-case-occupancy-analytics-dashboard.png"
+                     class="img-fluid">
               </div>
-              <div class="col-md-9 col-lg-10">
-                <div class="card-body">
-                  <h2 class="card-title"> We're working on it... </h2>
-                  <p class="card-text"> ...that's why you're looking at nothing more than a placeholder page right now.  Nonetheless, by browsing to this page, you're providing us with the analytics<em>&mdash;and hence motivation&mdash;</em>to prioritise this content (see <a href="https://www.reelyactive.com/how-we-observe/#digital" target="_blank">How we Observe</a>).  Thanks! </p>
-                </div>
+              <div class="col-md-12 col-lg-6 col-xl-7 my-2">
+                <p> Access and manipulate data with ease through standard web platforms* to: </p>
+                <ul>
+                  <li> Observe <b>room / zone / building occupancy</b> over time
+                  <li> Compare the <b>performance of spaces</b> against target metrics
+                  <li> Focus on <b>what matters to you</b> <small>(your data is your business!)</small>
+                </ul>
+                <p class="text-muted text-right"> * Kibana dashboard shown here </p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!----- How? ----->
+      <div class="row justify-content-center py-4">
+        <div class="col-md-12 col-lg-6 col-xl-5 my-2">
+          <h2> How does this work? </h2>
+          <p class="lead"> Ambient wireless signals are measured as foot traffic </p>
+          <ul>
+            <li> <b>Plug-and-play infrastructure</b> is deployed
+            <li> Occupants are anonymously detected by the <b>ambient wireless signals</b> of the devices they <em>already</em> carry <small>(no change management!)</small>
+            <li> <b>Pareto Anywhere</b> open source software processes and relays the real-time data stream
+            <li> Data is stored in <b>Elasticsearch</b>* or any other database
+            <li> Data is analysed in <b>Kibana</b>* or any other analytics software
+          </ul>
+          <p class="text-muted text-right"> * Pareto Anywhere <i class="fas fa-heart"></i> the open source Elastic Stack </p>
+        </div>
+        <div class="col-md-12 col-lg-4 col-xl-3 my-2">
+          <img src="../../images/use-case-occupancy-analytics-how-physical.jpg"
+               class="img-fluid">
+        </div>
+      </div>
+
+      <!----- CTA ----->
+      <div class="row justify-content-center bg-reelydark text-white py-4">
+        <div class="col-sm-12 col-md-10 col-xl-8 text-center my-4">
+          <h1> Extend the power of the web to <em>physical</em> applications </h1>
+          <p class="lead"> Learn more about the complementary use cases.  Let our sales team know which matter most to you. </p>
+          <p class="mt-4">
+            <div class="btn-group">
+              <div class="dropdown">
+                <button class="btn btn-outline-light btn-lg dropdown-toggle m-1"
+                        type="button" id="useCasesMore"
+                        data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false"> More about </button>
+                <div class="dropdown-menu" aria-labelledby="useCasesMore">
+                  <a href="../asset-tracking/" class="dropdown-item">
+                    <i class="fas fa-tag"></i> &nbsp; Asset Tracking
+                  </a>
+                  <a href="../personnel-tracking/" class="dropdown-item">
+                    <i class="fas fa-user-tag"></i> &nbsp; Personnel Tracking
+                  </a>
+                  <a href="../environmental-sensing/" class="dropdown-item">
+                    <i class="fas fa-thermometer-half"></i> &nbsp; Environmental Sensing
+                  </a>
+                  <a href="../interaction-detection/" class="dropdown-item">
+                    <i class="fas fa-user-friends"></i> &nbsp; Proximity Interaction Detection
+                  </a>
+                </div>
+              </div>
+              <a class="btn btn-primary btn-lg m-1"
+                 href="mailto:sales@reelyactive.com" role="button">
+                <i class="fas fa-envelope"></i> &nbsp; sales@reelyactive.com
+              </a>
+            </div>
+          </p>
         </div>
       </div>
 
