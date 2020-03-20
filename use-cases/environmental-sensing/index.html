@@ -130,26 +130,97 @@
         </div>
       </div>
 
-      <!----- Working on it... ----->
-      <div class="row justify-content-center py-4">
+      <!----- Use Case Summary ----->
+      <div class="row justify-content-center my-4 py-4">
         <div class="col-sm-12 col-md-10 col-xl-8">
-          <div class="card">
-            <div class="row no-gutters">
-              <div class="col-md-3 col-lg-2 text-center my-auto">
-                <h1 class="display-1">
-                  <span class="badge badge-warning">
-                    <i class="fas fa-tools"></i>
-                  </span>
-                </h1>
-              </div>
-              <div class="col-md-9 col-lg-10">
-                <div class="card-body">
-                  <h2 class="card-title"> We're working on it... </h2>
-                  <p class="card-text"> ...that's why you're looking at nothing more than a placeholder page right now.  Nonetheless, by browsing to this page, you're providing us with the analytics<em>&mdash;and hence motivation&mdash;</em>to prioritise this content (see <a href="https://www.reelyactive.com/how-we-observe/#digital" target="_blank">How we Observe</a>).  Thanks! </p>
-                </div>
-              </div>
+          <div class="border-top border-bottom py-3">
+          <p class="lead text-center mb-0"> Observe environmental factors within physical spaces, including those of the assets they contain. </p>
+          </div>
+        </div>
+      </div>
+
+      <!----- How? ----->
+      <div class="row justify-content-center py-4">
+        <div class="col-md-12 col-lg-5 col-xl-4 my-2">
+          <h2> How does this work? </h2>
+          <p class="lead"> Sensor beacons convey environmental readings </p>
+          <ul class="list-unstyled">
+            <li> <i class="fas fa-building"></i> &nbsp; <b>Plug-and-play infrastructure</b> is deployed
+            <li> <i class="fas fa-building"></i> &nbsp; Third-party Bluetooth Low Energy <b>sensor beacons</b> are placed in the space
+            <li> <i class="fas fa-cloud"></i> &nbsp; <b>Pareto Anywhere</b> open source software processes and relays the real-time data stream
+            <li> <i class="fas fa-cloud"></i> &nbsp; Real-time location and sensor readings are accessible through Pareto Anywhere <b>web apps</b> and <b>APIs</b>
+            <li> <i class="fas fa-cloud"></i> &nbsp; Data is stored in <b>Elasticsearch</b>* or any other database
+            <li> <i class="fas fa-cloud"></i> &nbsp; Data is analysed in <b>Kibana</b>* or any other analytics software
+          </ul>
+          <p class="text-muted text-right"> * Pareto Anywhere <i class="fas fa-heart"></i> the open source Elastic Stack </p>
+        </div>
+        <div class="col-md-12 col-lg-5 col-xl-4 my-2">
+          <ul class="nav nav-tabs mt-4" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="physicaltab" data-toggle="tab"
+                 href="#physicalcontent" role="tab"
+                 aria-controls="physicalcontent" aria-selected="false">
+                <i class="fas fa-building"></i> Physical
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="digitaltab" data-toggle="tab"
+                 href="#digitalcontent" role="tab"
+                 aria-controls="digitalcontent" aria-selected="true">
+                <i class="fas fa-cloud"></i> Digital
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content tab-content-reelyactive">
+            <!-- Physical content -->
+            <div class="tab-pane fade show active" id="physicalcontent"
+                 role="tabpanel" aria-labelledby="physicaltab">
+              <img src="../../images/use-case-environmental-sensing-how-physical.jpg"
+                   class="img-fluid">
+            </div>
+            <!-- Digital content -->
+            <div class="tab-pane fade show" id="digitalcontent"
+                 role="tabpanel" aria-labelledby="digitaltab">
+              <img src="../../images/use-case-how-digital.png"
+                   class="img-fluid">
             </div>
           </div>
+        </div>
+      </div>
+
+      <!----- CTA ----->
+      <div class="row justify-content-center bg-reelydark text-white py-4">
+        <div class="col-sm-12 col-md-10 col-xl-8 text-center my-4">
+          <h1> Extend the power of the web to <em>physical</em> applications </h1>
+          <p class="lead"> Learn more about the complementary use cases.  Get Owl-Equipped to enable any and all in <em>your</em> space. </p>
+          <p class="mt-4">
+            <div class="btn-group flex-wrap justify-content-center">
+              <div class="dropdown">
+                <button class="btn btn-outline-light btn-lg dropdown-toggle m-1"
+                        type="button" id="useCasesMore"
+                        data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false"> More about </button>
+                <div class="dropdown-menu" aria-labelledby="useCasesMore">
+                  <a href="../personnel-tracking/" class="dropdown-item">
+                    <i class="fas fa-user-tag"></i> &nbsp; Personnel Tracking
+                  </a>
+                  <a href="../asset-tracking/" class="dropdown-item">
+                    <i class="fas fa-tag"></i> &nbsp; Asset Tracking
+                  </a>
+                  <a href="../occupancy-analytics/" class="dropdown-item">
+                    <i class="fas fa-shoe-prints"></i> &nbsp; Occupancy Analytics
+                  </a>
+                  <a href="../interaction-detection/" class="dropdown-item">
+                    <i class="fas fa-user-friends"></i> &nbsp; Proximity Interaction Detection
+                  </a>
+                </div>
+              </div>
+              <a class="btn btn-primary btn-lg m-1" role="button"
+                 href="../../equip/">
+                <i class="fas fa-check-circle"></i> &nbsp; Equip <em>your</em> space
+              </a>
+            </div>
+          </p>
         </div>
       </div>
 
