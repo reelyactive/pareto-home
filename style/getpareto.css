@@ -137,6 +137,18 @@ a {
   background-color: #0770a2;
 }
 
+.bg-reelyblack {
+  background-color: #000000;
+}
+
+.bg-reelygreen {
+  background-color: #aec844;
+}
+
+.bg-reelyblue {
+  background-color: #83b7d0;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
