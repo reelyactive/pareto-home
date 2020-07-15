@@ -121,6 +121,24 @@ a {
   min-height: 50vw;
 }
 
+.hero-landscape {
+  background: no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  min-height: 50vw;
+}
+
+.hero-portrait {
+  background: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  min-height: 200vw;
+}
+
 .page-title-header {
   background: url("../images/title-header.jpg") no-repeat center center;
 }
