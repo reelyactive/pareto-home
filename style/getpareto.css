@@ -116,6 +116,10 @@ a {
   background-image: url('/images/use-case-occupancy-analytics-hero.jpg');
 }
 
+.hero-asset-tracking {
+  background-image: url('/images/use-case-asset-tracking-hero.jpg');
+}
+
 #hero {
   background: url("../images/pareto-anywhere-hero.jpg") no-repeat center center;
   -webkit-background-size: 100% 100%;
