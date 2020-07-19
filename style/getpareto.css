@@ -126,6 +126,7 @@ a {
 
 .hero {
   max-width: 100vw;
+  max-height: 1080px;
   height: calc(100vh - 58px);
   display: flex;
   justify-content: center;
