@@ -112,21 +112,16 @@ a {
   background-color: #0770a2;
 }
 
+.hero-landing {
+  background-image: url('/images/pareto-anywhere-hero.jpg');
+}
+
 .hero-occupancy-analytics {
   background-image: url('/images/use-case-occupancy-analytics-hero.jpg');
 }
 
 .hero-asset-tracking {
   background-image: url('/images/use-case-asset-tracking-hero.jpg');
-}
-
-#hero {
-  background: url("../images/pareto-anywhere-hero.jpg") no-repeat center center;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
-  min-height: 50vw;
 }
 
 .hero {
