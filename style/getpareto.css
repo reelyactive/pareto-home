@@ -124,6 +124,10 @@ a {
   background-image: url('/images/use-case-asset-tracking-hero.jpg');
 }
 
+.hero-personnel-tracking {
+  background-image: url('/images/use-case-personnel-tracking-hero.jpg');
+}
+
 .hero {
   max-width: 100vw;
   max-height: 1080px;
