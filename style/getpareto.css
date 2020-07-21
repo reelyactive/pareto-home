@@ -128,6 +128,10 @@ a {
   background-image: url('/images/use-case-personnel-tracking-hero.jpg');
 }
 
+.hero-environmental-sensing {
+  background-image: url('/images/use-case-environmental-sensing-hero.jpg');
+}
+
 .hero {
   max-width: 100vw;
   max-height: 1080px;
