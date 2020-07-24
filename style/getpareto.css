@@ -112,6 +112,16 @@ a {
   background-color: #0770a2;
 }
 
+.badge-reelygreen {
+  color: #fff;
+  background-color: #aec844;
+}
+
+.badge-reelyblue {
+  color: #fff;
+  background-color: #83b7d0;
+}
+
 .hero-landing {
   background-image: url('/images/pareto-anywhere-hero.jpg');
 }
