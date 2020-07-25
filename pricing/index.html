@@ -525,43 +525,42 @@
         </div>
       </div>
 
-      <!----- Business model FAQ ----->
+      <!----- FAQ ----->
       <div class="row justify-content-center py-4">
         <div class="col-sm-12 col-md-10 col-xl-8">
-          <h3 class="mt-4"> Business Model FAQ </h3>
-          <p> The how and why of our business model. </p>
+          <div class="shadow p-3 mb-5 bg-white rounded text-center">
+            <h1 id="faq"> Questions? </h1>
+          </div>
           <div class="accordion" id="modelFaq">
             <div class="card">
-              <div class="card-header bg-reelyblue" id="headingInfrastructure">
+              <div class="card-header bg-reelyblue" id="headingGateway">
                 <h2 class="mb-0">
-                  <button class="btn btn-link text-decoration-none text-light" type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseInfrastructure"
-                          aria-expanded="true"
-                          aria-controls="collapseInfrastructure">
+                  <button class="btn btn-link text-decoration-none text-light"
+                          type="button" data-toggle="collapse"
+                          data-target="#collapseGateway" aria-expanded="true"
+                          aria-controls="collapseGateway">
                     <i class="fas fa-question-circle"></i> &nbsp;
-                    What is a unit of infrastructure?
+                    What is a gateway?
                   </button>
                 </h2>
               </div>
-              <div id="collapseInfrastructure" class="collapse show"
-                   aria-labelledby="headingInfrastructure"
+              <div id="collapseGateway" class="collapse show"
+                   aria-labelledby="headingGateway"
                    data-parent="#modelFaq">
                 <div class="card-body">
-                  <span class="badge badge-reelyactive"> <i class="fas fa-broadcast-tower"></i> </span> &nbsp; A unit of infrastructure is any radio device whose received packet stream is processed by Pareto Anywhere software.
+                  <span class="badge badge-reelyactive"> <i class="fas fa-broadcast-tower"></i> </span> &nbsp; A gateway is any radio device whose received packet stream is processed by Pareto Anywhere software.
                 </div>
               </div>
             </div>
             <div class="card">
               <div class="card-header bg-reelyblue" id="headingPricing">
                 <h2 class="mb-0">
-                  <button class="btn btn-link text-decoration-none text-light collapsed" type="button"
-                          data-toggle="collapse"
-                          data-target="#collapsePricing"
-                          aria-expanded="true"
+                  <button class="btn btn-link text-decoration-none text-light collapsed"
+                          type="button" data-toggle="collapse"
+                          data-target="#collapsePricing" aria-expanded="true"
                           aria-controls="collapsePricing">
                     <i class="fas fa-question-circle"></i> &nbsp;
-                    Why is subscription pricing based on units of infrastructure?
+                    Why is subscription pricing based on the number of gateways?
                   </button>
                 </h2>
               </div>
@@ -569,20 +568,19 @@
                    aria-labelledby="headingPricing"
                    data-parent="#modelFaq">
                 <div class="card-body">
-                  <span class="badge badge-success"> <i class="fas fa-chart-line"></i> </span> &nbsp; The number of units of infrastructure is correlated with the volume of data to process, and hence the pressure on Pareto Anywhere's performance and scalability.  Contribution to the continuous development of Pareto Anywhere is indexed to these factors.
+                  <span class="badge badge-success"> <i class="fas fa-chart-line"></i> </span> &nbsp; The number of gateways is correlated with the volume of data to process, and hence the pressure on Pareto Anywhere's performance and scalability.  Contribution to the continuous development of Pareto Anywhere is indexed to these factors.
                 </div>
               </div>
             </div>
             <div class="card">
               <div class="card-header bg-reelyblue" id="headingBase">
                 <h2 class="mb-0">
-                  <button class="btn btn-link text-decoration-none text-light collapsed" type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseBase"
-                          aria-expanded="true"
+                  <button class="btn btn-link text-decoration-none text-light collapsed"
+                          type="button" data-toggle="collapse"
+                          data-target="#collapseBase" aria-expanded="true"
                           aria-controls="collapseBase">
                     <i class="fas fa-question-circle"></i> &nbsp;
-                    Why a base subscription fee for the first 100 units?
+                    Why a base subscription fee for the first 100 gateways?
                   </button>
                 </h2>
               </div>
@@ -597,10 +595,9 @@
             <div class="card">
               <div class="card-header bg-reelyblue" id="headingAnnual">
                 <h2 class="mb-0">
-                  <button class="btn btn-link text-decoration-none text-light collapsed" type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseAnnual"
-                          aria-expanded="true"
+                  <button class="btn btn-link text-decoration-none text-light collapsed"
+                          type="button" data-toggle="collapse"
+                          data-target="#collapseAnnual" aria-expanded="true"
                           aria-controls="collapseAnnual">
                     <i class="fas fa-question-circle"></i> &nbsp;
                     Is the subscription always billed annually?
@@ -616,12 +613,32 @@
               </div>
             </div>
             <div class="card">
+              <div class="card-header bg-reelyblue" id="headingSubscription">
+                <h2 class="mb-0">
+                  <button class="btn btn-link text-decoration-none text-light collapsed"
+                          type="button" data-toggle="collapse"
+                          data-target="#collapseSubscription"
+                          aria-expanded="true"
+                          aria-controls="collapseSubscription">
+                    <i class="fas fa-question-circle"></i> &nbsp;
+                    Why a subscription model?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseSubscription" class="collapse"
+                   aria-labelledby="headingSubscription"
+                   data-parent="#modelFaq">
+                <div class="card-body">
+                  <span class="badge badge-success"> <i class="fas fa-info-circle"></i> </span> &nbsp; The subscription model best promotes the informed use of our continuously evolving product.  It allows us to offer <em>unlimited, prompt, expert Q&A,</em> which is a key differentiator, beloved by our clients who save time and continuously improve, maximising their return on investment.
+                </div>
+              </div>
+            </div>
+            <div class="card">
               <div class="card-header bg-reelyblue" id="headingFree">
                 <h2 class="mb-0">
-                  <button class="btn btn-link text-decoration-none text-light collapsed" type="button"
-                          data-toggle="collapse"
-                          data-target="#collapseFree"
-                          aria-expanded="true"
+                  <button class="btn btn-link text-decoration-none text-light collapsed"
+                          type="button" data-toggle="collapse"
+                          data-target="#collapseFree" aria-expanded="true"
                           aria-controls="collapseFree">
                     <i class="fas fa-question-circle"></i> &nbsp;
                     Why would I pay for a subscription when there is a no-cost option?
