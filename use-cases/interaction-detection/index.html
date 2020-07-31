@@ -256,6 +256,27 @@
           </div>
           <div class="accordion" id="faqAccordion">
             <div class="card">
+              <div class="card-header bg-reelyblue" id="headingTracing">
+                <h2 class="mb-0">
+                  <button class="btn btn-link text-decoration-none text-light collapsed"
+                          type="button" data-toggle="collapse"
+                          data-target="#collapseTracing"
+                          aria-expanded="false"
+                          aria-controls="collapseTracing">
+                    <i class="fas fa-question-circle"></i> &nbsp;
+                    Is contact tracing an application of interaction detection?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTracing" class="collapse"
+                   aria-labelledby="headingTracing"
+                   data-parent="#faqAccordion">
+                <div class="card-body">
+                  <span class="badge badge-success"> <i class="fas fa-check-circle"></i> &nbsp; Yes </span> &nbsp;  Contact tracing is just one of several possible applications of interaction detection.  Pareto Anywhere supports both real-time and digest-based contact tracing.
+                </div>
+              </div>
+            </div>
+            <div class="card">
               <div class="card-header bg-reelyblue" id="headingTechnology">
                 <h2 class="mb-0">
                   <button class="btn btn-link text-decoration-none text-light collapsed"
@@ -272,7 +293,7 @@
                    aria-labelledby="headingTechnology"
                    data-parent="#faqAccordion">
                 <div class="card-body">
-                  <span class="badge badge-success"> <i class="fas fa-check-circle"></i> &nbsp; Bluetooth Low Energy </span> &nbsp;
+                  <span class="badge badge-success"> <i class="fab fa-bluetooth"></i> &nbsp; Bluetooth Low Energy </span> &nbsp;  The ability for devices to both transmit and receive messages to all peers in range makes Bluetooth Low Energy an ideal technology for interaction detection. Pareto Anywhere is nonetheless radio-protocol-agnostic.
                 </div>
               </div>
             </div>
@@ -284,35 +305,35 @@
                           data-target="#collapseTags"
                           aria-expanded="false" aria-controls="collapseTags">
                     <i class="fas fa-question-circle"></i> &nbsp;
-                    Which badges and tags are supported?
+                    Which badges and bracelets are supported?
                   </button>
                 </h2>
               </div>
               <div id="collapseTags" class="collapse"
                    aria-labelledby="headingTags" data-parent="#faqAccordion">
                 <div class="card-body">
-                  <span class="badge badge-success"> <i class="fas fa-check-circle"></i> &nbsp; Bluetooth Low Energy </span> &nbsp;
+                  <span class="badge badge-success"> <i class="fas fa-tag"></i> &nbsp; Third-Party </span> &nbsp; Many third-party vendors offer Bluetooth badges and bracelets capable of supporting DirAct embedded software. Devices with standard or documented payloads are also supported by Pareto Anywhere.
                 </div>
               </div>
             </div>
             <div class="card">
-              <div class="card-header bg-reelyblue" id="headingInteractions">
+              <div class="card-header bg-reelyblue" id="headingDirAct">
                 <h2 class="mb-0">
                   <button class="btn btn-link text-decoration-none text-light collapsed"
                           type="button" data-toggle="collapse"
-                          data-target="#collapseInteractions"
+                          data-target="#collapseDirAct"
                           aria-expanded="false"
-                          aria-controls="collapseInteractions">
+                          aria-controls="collapseDirAct">
                     <i class="fas fa-question-circle"></i> &nbsp;
-                    Is it possible to detect interactions between occupants?
+                    What is DirAct embedded software?
                   </button>
                 </h2>
               </div>
-              <div id="collapseInteractions" class="collapse"
-                   aria-labelledby="headingInteractions"
+              <div id="collapseDirAct" class="collapse"
+                   aria-labelledby="headingDirAct"
                    data-parent="#faqAccordion">
                 <div class="card-body">
-                  <span class="badge badge-success"> <i class="fas fa-check-circle"></i> &nbsp; Yes </span> &nbsp;
+                  <span class="badge badge-reelyactive"> <i class="fas fa-code"></i> &nbsp; DirAct </span> &nbsp; Co-developed by reelyActive, DirAct is embedded software that can run on common third-party devices, enabling these to detect and relay the presence of their peers.
                 </div>
               </div>
             </div>
