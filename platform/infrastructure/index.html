@@ -127,30 +127,25 @@
 
     <div class="container-fluid">
 
-      <!----- Devices Summary ----->
-      <div class="row justify-content-center my-4 py-4">
-        <div class="col-sm-12 col-md-10 col-xl-8">
-          <div class="border-top border-bottom py-3">
-          <p class="lead text-center mb-0"> List of popular infrastructure compatible with Pareto Anywhere. </p>
+      <!----- Overview ----->
+      <div class="row justify-content-center py-4 bg-reelygreen text-white">
+        <div class="col-sm-12 col-md-10 col-xl-8 text-center my-4">
+          <h1 class="display-4 mb-4"> Infrastructure Layer </h1>
+          <h5> Harness the <b>ambient data</b> in <em>your</em> space. </h5>
+          <hr class="bg-light">
+          <p class="lead text-white-50"> Pareto Anywhere is <em>infrastructure-agnostic</em> open source software. </p>
+          <div class="text-center mt-4">
+            <a class="btn btn-outline-light mx-1"
+               href="#edge-capable"> Edge-Capable </a>
+            <a class="btn btn-outline-light mx-1"
+               href="#relay"> Relay </a>
+            <a class="btn btn-outline-light mx-1"
+               href="#novel"> Novel </a>
+            <a class="btn btn-outline-light mx-1"
+               href="#faq"> <i class="fas fa-question-circle"></i> </a>
           </div>
         </div>
       </div>
-
-      <!----- Navs ----->
-      <ul class="nav justify-content-center my-4">
-        <li class="nav-item mx-4">
-          <a class="nav-link lead"
-             href="#edge"> Edge-Capable </a>
-        </li>
-        <li class="nav-item mx-4">
-          <a class="nav-link lead"
-             href="#relay"> Relay </a>
-        </li>
-        <li class="nav-item mx-4">
-          <a class="nav-link lead"
-             href="#novel"> Novel </a>
-        </li>
-      </ul>
 
       <!----- Edge-Capable ----->
       <div class="row justify-content-center mt-4 pt-4">
@@ -162,7 +157,7 @@
           <div class="row">
             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
               <div class="card h-100">
-                <img src="../../images/devices-owl-in-one.jpg"
+                <img src="../../images/infrastructure-owl-in-one.jpg"
                      class="card-img-top" alt="reelyActive Owl-in-One">
                 <div class="card-body">
                   <h5 class="card-title"> reelyActive Owl-in-One </h5>
@@ -212,7 +207,7 @@
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
               <div class="card h-100">
-                <img src="../../images/devices-ig60-bl654.jpg"
+                <img src="../../images/infrastructure-ig60-bl654.jpg"
                      class="card-img-top" alt="Laird IG60-BL654">
                 <div class="card-body">
                   <h5 class="card-title"> Laird IG60-BL654 </h5>
@@ -251,7 +246,7 @@
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
               <div class="card h-100">
-                <img src="../../images/devices-raspberrypi.jpg"
+                <img src="../../images/infrastructure-raspberrypi.jpg"
                      class="card-img-top" alt="Raspberry Pi">
                 <div class="card-body">
                   <h5 class="card-title"> Raspberry Pi </h5>
@@ -307,7 +302,8 @@
           <div class="row">
             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
               <div class="card h-100">
-                <img src="" class="card-img-top" alt="">
+                <img src="../../images/infrastructure-minew-g1.jpg"
+                     class="card-img-top" alt="Minew G1">
                 <div class="card-body">
                   <h5 class="card-title"> Minew G1 </h5>
                   <p class="card-text">
@@ -316,6 +312,21 @@
                     <span class="badge badge-dark"> <i class="fas fa-ethernet"></i> </span>
                     <span class="badge badge-reelyblue"> <i class="fas fa-plug"></i> USB / PoE </span>
                   </p>
+                  <div class="dropdown">
+                    <button class="btn btn-outline-dark btn-block dropdown-toggle"
+                            type="button" id="learnMoreMinew"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                      Learn more
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="learnMoreMinew">
+                      <a class="dropdown-item"
+                         href="https://github.com/reelyactive/barnowl-minew/"
+                         target="_blank">
+                        <i class="fas fa-code"></i> &nbsp; barnowl-minew
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-footer text-muted small">
                    Excellent value and networking.
@@ -324,7 +335,8 @@
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
               <div class="card h-100">
-                <img src="" class="card-img-top" alt="">
+                <img src="../../images/infrastructure-bluecats-bc510.jpg"
+                     class="card-img-top" alt="BlueCats BC510">
                 <div class="card-body">
                   <h5 class="card-title"> BlueCats BC510 </h5>
                   <p class="card-text">
@@ -333,6 +345,21 @@
                     <span class="badge badge-dark"> <i class="fas fa-ethernet"></i> </span>
                     <span class="badge badge-reelyblue"> <i class="fas fa-plug"></i> USB </span>
                   </p>
+                  <div class="dropdown">
+                    <button class="btn btn-outline-dark btn-block dropdown-toggle"
+                            type="button" id="learnMoreBC510"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                      Learn more
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="learnMoreBC510">
+                      <a class="dropdown-item"
+                         href="https://reelyactive.github.io/configure-a-bluecats-edgerelay.html"
+                         target="_blank">
+                        <i class="fas fa-info"></i> &nbsp; Configure
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-footer text-muted small">
                    Compact and capable.
@@ -353,7 +380,8 @@
           <div class="row">
             <div class="col-sm-6 col-lg-4 col-xl-3 mb-4">
               <div class="card h-100">
-                <img src="" class="card-img-top" alt="">
+                <img src="../../images/infrastructure-reelceiver.jpg"
+                     class="card-img-top" alt="reelyActive reelceivers">
                 <div class="card-body">
                   <h5 class="card-title"> Reelceiver </h5>
                   <p class="card-text">
@@ -361,6 +389,37 @@
                     <span class="badge badge-dark"> RS-422 </span>
                     <span class="badge badge-reelyblue"> <i class="fas fa-plug"></i> 5-45VDC </span>
                   </p>
+                  <div class="dropdown">
+                    <button class="btn btn-outline-dark btn-block dropdown-toggle"
+                            type="button" id="learnMoreReel"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                      Learn more
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="learnMoreReel">
+                      <a class="dropdown-item"
+                         href="https://reelyactive.github.io/reel-deployment.html"
+                         target="_blank">
+                        <i class="fas fa-info"></i> &nbsp; Deployment
+                      </a>
+                      <a class="dropdown-item"
+                         href="https://reelyactive.github.io/reel-overview.html"
+                         target="_blank">
+                        <i class="fas fa-info"></i> &nbsp; Architecture
+                      </a>
+                      <a class="dropdown-item"
+                         href="https://github.com/reelyactive/barnowl-reel/"
+                         target="_blank">
+                        <i class="fas fa-code"></i> &nbsp; barnowl-reel
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"
+                         href="https://shop.reelyactive.com/products/ra-r436"
+                         target="_blank">
+                        <i class="fas fa-shopping-cart"></i> &nbsp; Shop
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-footer text-muted small">
                    Daisy-chainable & utterly dependable.
