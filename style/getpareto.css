@@ -204,6 +204,10 @@ a {
   background: url("../images/title-header.jpg") no-repeat center center;
 }
 
+.bg-pareto {
+  background-color: #000000;
+}
+
 .bg-reelylight {
   background-color: #5489a2;
 }
