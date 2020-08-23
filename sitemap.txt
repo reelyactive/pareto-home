@@ -1,9 +1,10 @@
 https://getpareto.com/
-https://getpareto.com/for-canadian-startups/
 https://getpareto.com/open-architecture/
 https://getpareto.com/open-source/
+https://getpareto.com/platform/devices/
+https://getpareto.com/platform/infrastructure/
 https://getpareto.com/pricing/
-https://getpareto.com/start/
+https://getpareto.com/take-action/
 https://getpareto.com/use-cases/
 https://getpareto.com/use-cases/asset-tracking/
 https://getpareto.com/use-cases/environmental-sensing/
