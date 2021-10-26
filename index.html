@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-          content="Transform the ambient data in your space into actionable information for your business. Pareto Anywhere is open source software that runs anywhere to digitally transform any space.">
+          content="Make any physical space context-aware with Pareto Anywhere open source middleware by reelyActive.">
     <meta name="msvalidate.01" content="290718595E7C106146EE4DF28E941869" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49659454-3"></script>
     <script>
@@ -24,513 +24,173 @@
       "@type": "WebPage",
       "name": "Pareto Anywhere by reelyActive",
       "description": "Transform the ambient data in your space into actionable information for your business. Pareto Anywhere is open source software that runs anywhere to digitally transform any space.",
+    <link rel="stylesheet" href="style/bootstrappyactive.min.css">
+    <title> Pareto Anywhere by reelyActive </title>
+    <!----- Structured, linked metadata (JSON-LD & Schema.org) ----->
+    <script type="application/ld+json">
+    [{
+      "@context": "https://schema.org", 
+      "@type": "WebPage",
+      "name": "Pareto Anywhere by reelyActive",
+      "description": "Make any physical space context-aware with Pareto Anywhere open source middleware by reelyActive.",
       "image": "https://getpareto.com/images/pareto-anywhere-logo.png",
       "url": "https://getpareto.com/",
       "creator": {
         "@type": "Organization",
         "url": "https://www.reelyactive.com"
       }
-    }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Pareto Anywhere by reelyActive",
+        "item": "https://getpareto.com"
+      }]
+    }]
     </script>
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-reelyactive bg-pareto">
-      <a class="navbar-brand" href="/">
-        <img src="images/pareto-logo-nav.png"
-             width="111" height="30" alt="Pareto Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse"
-              data-target="#navbarItems" aria-controls="navbarItems"
-              aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarItems">
-        <ul class="navbar-nav mr-auto"></ul>
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown"
-               role="button" data-toggle="dropdown" aria-haspopup="true"
-               aria-expanded="false">
-              <i class="fas fa-question-circle"></i>
-            </a>
-            <!-- Info about tracking and open source software/licenses -->
-            <div class="dropdown-menu dropdown-menu-right"
-                 aria-labelledby="navbarDropdown">
-              <a class="dropdown-item"
-                 href="https://www.reelyactive.com/how-we-observe/#digital">
-                <i class="fas fa-mouse-pointer"></i>
-                Page view tracking (gtag.js) &nbsp;
-                <span class="badge badge-warning">
-                  <i class="fas fa-user-tag"></i>
-                </span>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white
+                shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.reelyactive.com/">
+          <img src="images/reelyactive-logo-square-nav.png" width="30"
+               height="30" alt="reelyActive">
+        </a>
+        <a class="navbar-brand" href="/">
+          <img src="images/pareto-anywhere-logo-nav.png" width="172"
+               height="30" alt="Pareto Anywhere by reelyActive">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarItems" aria-controls="navbarItems"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarItems">
+          <!-- Left-aligned navigation items -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <!-- Right-aligned navigation items -->
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarInfoDropdown"
+                 role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                 aria-expanded="false">
+                <i class="fas fa-question-circle"></i>
               </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" target="_blank"
-                 href="https://getbootstrap.com" >
-                <i class="fab fa-bootstrap"></i>
-                Bootstrap 4 &nbsp;
-                <span class="badge badge-light">
-                  <i class="fab fa-osi"></i> MIT
-                </span>
-              </a>
-              <a class="dropdown-item" target="_blank"
-                 href="https://fontawesome.com" >
-                <i class="fab fa-font-awesome"></i>
-                Font Awesome (Free) &nbsp;
-                <span class="badge badge-light">
-                  <i class="fab fa-creative-commons"></i>
-                  <i class="fab fa-osi"></i> MIT
-                </span>
-              </a>
-              <a class="dropdown-item" target="_blank"
-                 href="https://jquery.com" >
-                <i class="fab fa-js"></i>
-                JQuery &nbsp;
-                <span class="badge badge-light">
-                  <i class="fab fa-osi"></i> MIT
-                </span>
-              </a>
-              <a class="dropdown-item" target="_blank"
-                 href="https://github.com/reelyactive/web-style-guide/" >
-                <i class="fas fa-code"></i>
-                Web Style Guide &nbsp;
-                <span class="badge badge-light">
-                  <i class="fab fa-osi"></i> MIT
-                </span>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" target="_blank"
-                 href="https://www.reelyactive.com/made-in-montreal/" >
-                <i class="fab fa-canadian-maple-leaf"></i>
-                Made in Montr&eacute;al &nbsp;
-                <i class="fas fa-city"></i>
-              </a>
-            </div>
-          </li>
-        </ul>
+              <!-- Info about tracking and open source software/licenses -->
+              <ul class="dropdown-menu dropdown-menu-end shadow"
+                   aria-labelledby="navbarInfoDropdown">
+                <li>
+                  <a class="dropdown-item"
+                     href="https://www.reelyactive.com/how-we-observe/#digital">
+                    <i class="fas fa-mouse-pointer"></i>
+                    Page view tracking (gtag.js) &nbsp;
+                    <span class="badge bg-warning animate-breathing">
+                      <i class="fas fa-user-tag"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" target="_blank"
+                     href="https://getbootstrap.com" >
+                    <i class="fab fa-bootstrap"></i>
+                    Bootstrap 5 &nbsp;
+                    <span class="badge bg-light text-dark">
+                      <i class="fab fa-osi"></i> MIT
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" target="_blank"
+                     href="https://fontawesome.com" >
+                    <i class="fab fa-font-awesome"></i>
+                    Font Awesome (Free) &nbsp;
+                    <span class="badge bg-light text-dark">
+                      <i class="fab fa-creative-commons"></i>
+                      <i class="fab fa-osi"></i> MIT
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" target="_blank"
+                     href="https://github.com/reelyactive/web-style-guide/" >
+                    <i class="fas fa-code"></i>
+                    Web Style Guide &nbsp;
+                    <span class="badge bg-light text-dark">
+                      <i class="fab fa-osi"></i> MIT
+                   </span>
+                  </a>
+                </li>
+                <li class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" target="_blank"
+                     href="https://www.reelyactive.com/made-in-montreal/" >
+                    <i class="fab fa-canadian-maple-leaf"></i>
+                    Made in Montr&eacute;al &nbsp;
+                    <i class="fas fa-city"></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-
-    <!----- Hero ----->
-    <div class="hero hero-landing">
-      <div class="hero-content">
-        <img src="images/pareto-anywhere-logo-white.png" class="img-fluid"
-             style="width: 960px;"></img>
-      </div>
-    </div>
-
+    <!-- Content -->
     <div class="container-fluid">
-
-      <!----- Overview ----->
-      <div class="row justify-content-center py-4 bg-reelyblack text-white">
-        <div class="col-sm-12 col-md-10 col-xl-8 text-center my-4">
-          <h1 class="display-4 mb-4"> Ambient to Actionable, <em>Anywhere</em> </h1>
-          <h5> Transform the <b>ambient data</b> in <em>your</em> space into <b>actionable information</b> for <em>your</em> business. </h5>
-          <hr class="bg-dark">
-          <p class="lead text-white-50"> Pareto Anywhere is open source software that runs <em>anywhere</em> to digitally transform <em>any</em> space. </p>
-          <div class="text-center mt-4">
-            <a class="btn btn-outline-light m-1"
-               href="#usecases"> Use Cases </a>
-            <a class="btn btn-outline-light m-1"
-               href="#platform"> Platform </a>
-            <a class="btn btn-outline-light m-1"
-               href="#pricing"> Pricing </a>
-          </div>
-        </div>
-      </div>
-
-      <!----- Use Cases ----->
-      <div class="row justify-content-center py-4">
-        <div class="col-sm-12 col-md-10 col-xl-8 my-4">
-          <div class="shadow p-3 mb-5 bg-white rounded text-center">
-            <h1 id="usecases" class="text-center"> Use Cases </h1>
-          </div>
-          <div class="accordion" id="useCasesAccordion">
-            <div class="card">
-              <div class="card-header bg-reelyblack"
-                   id="occupancyAnalyticsHeader">
-                <h2 class="mb-0">
-                  <button class="btn btn-link text-decoration-none text-light"
-                          type="button" data-toggle="collapse"
-                          data-target="#occupancyAnalytics" aria-expanded="true"
-                          aria-controls="occupancyAnalytics">
-                    <i class="fas fa-shoe-prints"></i> &nbsp;
-                    Occupancy Analytics
-                  </button>
-                </h2>
-              </div>
-              <div id="occupancyAnalytics" class="collapse show"
-                   aria-labelledby="occupancyAnalyticsHeader"
-                   data-parent="#useCasesAccordion">
-                <div class="card-body row">
-                  <div class="col-md-6">
-                    <img src="images/use-case-occupancy-analytics-actionable.gif"
-                         class="card-img" loading="lazy">
-                  </div>
-                  <div class="col-md-6 text-center">
-                    <p class="text-justify mt-2"> Estimate real-time occupancy and foot traffic patterns over time by observing the ambient wireless packets of the devices that people already carry. </p>
-                    <a class="btn btn-outline-dark"
-                       href="use-cases/occupancy-analytics/"
-                       role="button"> Learn more </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header bg-reelyblack"
-                   id="personnelTrackingHeader">
-                <h2 class="mb-0">
-                  <button class="btn btn-link text-decoration-none text-light collapsed"
-                          type="button" data-toggle="collapse"
-                          data-target="#personnelTracking"
-                          aria-expanded="false"
-                          aria-controls="personnelTracking">
-                    <i class="fas fa-user-tag"></i> &nbsp; Personnel Tracking
-                  </button>
-                </h2>
-              </div>
-              <div id="personnelTracking" class="collapse"
-                   aria-labelledby="personnelTrackingHeader"
-                   data-parent="#useCasesAccordion">
-                <div class="card-body row">
-                  <div class="col-md-6">
-                    <img src="images/use-case-personnel-tracking-actionable.gif"
-                         class="card-img" loading="lazy">
-                  </div>
-                  <div class="col-md-6 text-center">
-                    <p class="text-justify mt-2"> Locate and track employees, visitors and other personnel in real-time where each person explicitly carries/wears a radio-identifiable badge or device. </p>
-                    <a class="btn btn-outline-dark"
-                       href="use-cases/personnel-tracking/"
-                       role="button"> Learn more </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header bg-reelyblack" id="assetTrackingHeader">
-                <h2 class="mb-0">
-                  <button class="btn btn-link text-light text-decoration-none collapsed"
-                          type="button" data-toggle="collapse"
-                          data-target="#assetTracking"
-                          aria-expanded="false"
-                          aria-controls="assetTracking">
-                    <i class="fas fa-tag"></i> &nbsp; Asset Tracking
-                  </button>
-                </h2>
-              </div>
-              <div id="assetTracking" class="collapse"
-                   aria-labelledby="assetTrackingHeader"
-                   data-parent="#useCasesAccordion">
-                <div class="card-body row">
-                  <div class="col-md-6">
-                    <img src="images/use-case-asset-tracking-actionable.gif"
-                         class="card-img" loading="lazy">
-                  </div>
-                  <div class="col-md-6 text-center">
-                    <p class="text-justify mt-2"> Locate and track equipment, goods and other assets in real-time where each object has an embedded or affixed radio-identifiable tag or device. </p>
-                    <a class="btn btn-outline-dark"
-                       href="use-cases/asset-tracking/"
-                       role="button"> Learn more </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header bg-reelyblack"
-                   id="environmentalSensingHeader">
-                <h2 class="mb-0">
-                  <button class="btn btn-link text-light text-decoration-none collapsed"
-                          type="button" data-toggle="collapse"
-                          data-target="#environmentalSensing"
-                          aria-expanded="false"
-                          aria-controls="environmentalSensing">
-                    <i class="fas fa-thermometer-half"></i> &nbsp;
-                    Environmental Sensing
-                  </button>
-                </h2>
-              </div>
-              <div id="environmentalSensing" class="collapse"
-                   aria-labelledby="environmentalSensingHeader"
-                   data-parent="#useCasesAccordion">
-                <div class="card-body row">
-                  <div class="col-md-6">
-                    <img src="images/use-case-environmental-sensing-actionable.gif"
-                         class="card-img" loading="lazy">
-                  </div>
-                  <div class="col-md-6 text-center">
-                    <p class="text-justify mt-2"> Collect real-time sensor data on physical environments from sensor-equipped radio-identifiable devices. </p>
-                    <a class="btn btn-outline-dark"
-                       href="use-cases/environmental-sensing/"
-                       role="button"> Learn more </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header bg-reelyblack"
-                   id="interactionDetectionHeader">
-                <h2 class="mb-0">
-                  <button class="btn btn-link text-light text-decoration-none collapsed"
-                          type="button" data-toggle="collapse"
-                          data-target="#interactionDetection"
-                          aria-expanded="false"
-                          aria-controls="interactionDetection">
-                    <i class="fas fa-user-friends"></i> &nbsp;
-                    Interaction Detection
-                  </button>
-                </h2>
-              </div>
-              <div id="interactionDetection" class="collapse"
-                   aria-labelledby="interactionDetectionHeader"
-                   data-parent="#useCasesAccordion">
-                <div class="card-body row">
-                  <div class="col-md-6">
-                    <img src="images/use-case-interaction-detection-actionable.gif"
-                         class="card-img" loading="lazy">
-                  </div>
-                  <div class="col-md-6 text-center">
-                    <p class="text-justify mt-2"> Capture person-to-person and person-to-object interactions in real-time with DirAct-enabled badges. </p>
-                    <a class="btn btn-outline-dark"
-                       href="use-cases/interaction-detection/"
-                       role="button"> Learn more </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!----- Platform ----->
-      <div class="row justify-content-center py-4">
-        <div class="col-sm-12 col-md-10 col-xl-8 my-4">
-          <div class="shadow p-3 mb-5 bg-white rounded text-center">
-            <h1 id="platform"> Platform </h1>
-          </div>
-          <div class="row">
-            <div class="col-md-12 col-lg-6">
-              <img src="images/pareto-anywhere-architecture.png"
-                   class="img-fluid" loading="lazy">
-            </div>
-            <div class="col-md-12 col-lg-6">
-              <div class="accordion" id="platformAccordion">
-                <div class="card">
-                  <div class="card-header bg-reelyblue"
-                       id="actionableInformationHeader">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link text-decoration-none text-light collapsed"
-                              type="button" data-toggle="collapse"
-                              data-target="#actionableInformation"
-                              aria-expanded="false"
-                              aria-controls="actionableInformation">
-                        Actionable Information
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="actionableInformation" class="collapse"
-                       aria-labelledby="actionableInformationHeader"
-                       data-parent="#platformAccordion">
-                    <div class="card-body">
-                      <p> A standard, digital representation of <b>who/what</b> is <b>where/how</b> drives real-time business rules and analytics for data-based decision making. </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header bg-reelyactive"
-                       id="applicationLayerHeader">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link text-decoration-none text-light collapsed"
-                              type="button" data-toggle="collapse"
-                              data-target="#applicationLayer"
-                              aria-expanded="false"
-                              aria-controls="applicationLayer">
-                        Application Layer
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="applicationLayer" class="collapse"
-                       aria-labelledby="applicationLayerHeader"
-                       data-parent="#platformAccordion">
-                    <div class="card-body">
-                      <p> Pareto Anywhere integrates seamlessly with the <b>Elastic Stack</b> for search, analytics and beautiful dashboards*. </p>
-                      <p> A suite of <b>web apps</b> facilitate discovery and development, with simple yet powerful <b>APIs</b> for integration with third-party software and applications. </p>
-                      <a class="btn btn-outline-dark"
-                         href="platform/integrations/"
-                         role="button"> Integrations </a>
-                      <p class="text-right small text-muted">* we won an Elastic Search Award for that!</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header bg-reelyblack"
-                       id="paretoAnywhereHeader">
-                    <h2 class="mb-0">
-                      <button class="btn btn-lg btn-link text-decoration-none text-light"
-                              type="button" data-toggle="collapse"
-                              data-target="#paretoAnywhere" aria-expanded="true"
-                              aria-controls="paretoAnywhere">
-                        Pareto Anywhere
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="paretoAnywhere" class="collapse show"
-                       aria-labelledby="paretoAnywhereHeader"
-                       data-parent="#platformAccordion">
-                    <div class="card-body">
-                      <p class="lead"> Pareto Anywhere is continuously evolving, community-driven, permissively licensed open source software. </p>
-                      <p> Run <em>anywhere:</em> edge, local and/or cloud. </p>
-                      <a class="btn btn-outline-dark"
-                         href="open-architecture/"
-                         role="button"> Learn more </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header bg-reelygreen"
-                       id="infrastructureLayerHeader">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link text-decoration-none text-light collapsed"
-                              type="button" data-toggle="collapse"
-                              data-target="#infrastructureLayer"
-                              aria-expanded="false"
-                              aria-controls="infrastructureLayer">
-                        Infrastructure Layer
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="infrastructureLayer" class="collapse"
-                       aria-labelledby="infrastructureLayerHeader"
-                       data-parent="#platformAccordion">
-                    <div class="card-body">
-                      <p> Pareto Anywhere is <b>infrastructure-agnostic</b> and can ingest data from, and often even run on, third-party gateways and existing in-building infrastructure. </p>
-                      <p> Owl-in-One gateways and novel daisy-chain reelceiver infrastructure by reelyActive are, of course, also compatible. </p>
-                      <a class="btn btn-outline-dark"
-                         href="platform/infrastructure/"
-                         role="button"> Infrastructure </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header bg-reelyblue"
-                       id="ambientDataHeader">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link text-decoration-none text-light collapsed"
-                              type="button" data-toggle="collapse"
-                              data-target="#ambientData"
-                              aria-expanded="false"
-                              aria-controls="ambientData">
-                        Ambient Data
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="ambientData" class="collapse"
-                       aria-labelledby="ambientDataHeader"
-                       data-parent="#platformAccordion">
-                    <div class="card-body">
-                      <p> Pareto Anywhere is <b>radio-protocol-agnostic</b> and can ingest ambient wireless packets of any origin via compatible infrastructure. </p>
-                      <p> Billions of Bluetooth Low Energy devices provide an ample source of ambient data, while beacons can be introduced to satisfy specific use cases.  Long-range RFID represents an even greater untapped potential. </p>
-                      <a class="btn btn-outline-dark"
-                         href="platform/devices/"
-                         role="button"> Devices </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!----- Pricing ----->
-      <div class="row justify-content-center py-4">
-        <div class="col-sm-12 col-md-10 col-xl-8 my-4">
-          <div class="shadow p-3 mb-5 bg-white rounded text-center">
-            <h1 id="pricing"> Pricing </h1>
-          </div>
-          <div class="card-deck">
-            <div class="card border-dark">
-              <div class="card-body">
-                <h5 class="card-title"> No-Cost Model </h5>
-                <p class="card-text"> Enjoy the freedom to experiment with and to extend Pareto Anywhere on your own. </p>
-                <div class="text-center">
-                  <a class="btn btn-outline-dark" href="pricing/"
-                     role="button"> Pricing </a>
-                </div>
-              </div>
-              <div class="card-footer text-muted small">
-                 Accessible to all, always.
-              </div>
-            </div>
-            <div class="card border-dark">
-              <div class="card-body">
-                <h5 class="card-title">
-                  Subscription Model
-                  <span class="badge badge-reelyactive"> <i class="fas fa-award"></i> Recommended </span>
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+          <img src="images/pareto-anywhere-logo.png"
+               class="mt-5 w-50 mx-auto d-block">
+          <h3 class="text-center mt-4"> Make <em>any</em> physical space context-aware </h3>
+          <p class="lead text-muted text-center"> Pareto Anywhere by reelyActive is open source middleware </p>
+          <div class="row row-cols-2 row-cols-md-3 justify-content-center g-4 my-4">
+            <div class="col">
+              <div class="card h-100 hover-shadow">
+                <h5 class="card-header bg-primary text-white">
+                  <i class="fas fa-user-tie"></i> &nbsp; For Clients & Users
                 </h5>
-                <p class="card-text"> Enjoy direct access to our team and our expert knowledge and experience </p>
-                <div class="text-center">
-                  <a class="btn btn-outline-dark" href="pricing/"
-                     role="button"> Pricing </a>
+                <div class="card-body">
+                  <p class="card-text"> Learn more on the <b>reelyActive</b> website. </p>
+                  <p class="card-text text-center">
+                    <a href="https://www.reelyactive.com/pareto/anywhere"
+                       class="btn btn-outline-primary"> Learn more </a>
+                  </p>
                 </div>
-              </div>
-              <div class="card-footer text-muted small">
-                 Maximize value, not effort.
               </div>
             </div>
-            <div class="card border-dark">
-              <div class="card-body">
-                <h5 class="card-title"> Acceleration Packages </h5>
-                <p class="card-text"> Enjoy the confidence of achieving your desired outcome, accompanied by our expert team. </p>
-                <div class="text-center">
-                  <a class="btn btn-outline-dark" href="pricing/"
-                     role="button"> Pricing </a>
+            <div class="col">
+              <div class="card h-100 hover-shadow">
+                <h5 class="card-header bg-info text-white">
+                  <i class="fas fa-user-cog"></i> &nbsp; For Developers
+                </h5>
+                <div class="card-body">
+                  <p class="card-text"> Learn more on the <b>reelyActive Developers</b> website. </p>
+                  <p class="card-text text-center">
+                    <a href="https://reelyactive.github.io"
+                       class="btn btn-outline-info"> Learn more </a>
+                  </p>
                 </div>
-              </div>
-              <div class="card-footer text-muted small">
-                 Press the "faster" button.
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!----- CTA ----->
-    <div class="cta hero-landing container-fluid">
-      <div class="row justify-content-center bg-dark-50 text-white py-4">
-        <div class="col-sm-12 col-md-10 col-xl-8 text-center my-4">
-          <h1> Our call to actionable </h1>
-          <p class="lead mb-4"> Embrace the ambient data in <em>your</em> space. </p>
-          <div class="row justify-content-center text-left my-2">
-            <div class="col-sm-7 col-lg-6 col-xl-5 mt-1">
-              <p> Quickly evaluate all use cases with a Showcase Kit </p>
-            </div>
-            <div class="col-sm-5 col-lg-4 col-xl-3">
-              <a class="btn btn-outline-light btn-block"
-                 href="https://shop.reelyactive.com/products/showcase-kit"
-                 target="_blank" role="button"> Buy a Showcase Kit </a>
-            </div>
-          </div>
-          <div class="row justify-content-center text-left my-2">
-            <div class="col-sm-7 col-lg-6 col-xl-5 mt-1">
-              <p> Engage with our team to take action today </p>
-            </div>
-            <div class="col-sm-5 col-lg-4 col-xl-3">
-              <a class="btn btn-primary btn-block"
-                 href="take-action/" role="button"> Take Action </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer class="footer">
-      <a href="https://www.reelyactive.com"> &copy; reelyActive 2016-2020 </a>
+    <footer class="footer bg-dark bg-gradient">
+      <a href="https://github.com/reelyactive/pareto-home/"> Pareto </a>
+      &nbsp; | &nbsp;
+      <a href="https://www.reelyactive.com"> &copy; reelyActive 2016-2021 </a>
     </footer>
-    <script defer src="js/solid.min.js"></script>
-    <script defer src="js/brands.min.js"></script>
-    <script defer src="js/fontawesome.min.js"></script>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Optional JavaScript -->
+    <script defer src="js/fontawesome-reelyactive.min.js"></script>
+    <script src="js/bootstrappyactive.bundle.min.js"></script>
   </body>
 </html>

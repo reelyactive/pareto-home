@@ -1,13 +1,1 @@
 https://getpareto.com/
-https://getpareto.com/open-architecture/
-https://getpareto.com/open-source/
-https://getpareto.com/platform/devices/
-https://getpareto.com/platform/infrastructure/
-https://getpareto.com/pricing/
-https://getpareto.com/take-action/
-https://getpareto.com/use-cases/
-https://getpareto.com/use-cases/asset-tracking/
-https://getpareto.com/use-cases/environmental-sensing/
-https://getpareto.com/use-cases/interaction-detection/
-https://getpareto.com/use-cases/occupancy-analytics/
-https://getpareto.com/use-cases/personnel-tracking/

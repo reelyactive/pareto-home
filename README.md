@@ -1,2 +1,4 @@
-# pareto-home
-Pareto webpage.  We believe in an open Internet of Things.
+pareto-home
+===========
+
+Get Pareto landing page: [getpareto.com](https://getpareto.com)
